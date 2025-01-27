@@ -30,7 +30,6 @@ deactivate
 cd src
 python3 hello.py
 
-
 ### Docker
 
 # Install

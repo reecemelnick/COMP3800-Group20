@@ -1,10 +1,10 @@
 import pandas as pd
 
 def main():
-    print("Hello, World!")
+    df = pd.read_csv("../data/canada.csv")
+    print(df.head())
 
-    df = pd.read_csv("../data.csv")
-
+    df = pd.read_csv("../data/dubai.csv")
     print(df.head())
 
 if __name__ == "__main__":
