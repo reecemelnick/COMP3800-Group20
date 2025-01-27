@@ -25,3 +25,7 @@ pip3 install -r requirements.txt
 
 # Deactivate
 deactivate
+
+## Run
+cd src
+python3 hello.py
