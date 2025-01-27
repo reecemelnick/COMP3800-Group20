@@ -29,3 +29,12 @@ deactivate
 ## Run
 cd src
 python3 hello.py
+
+
+### Docker
+
+# Install
+install docker desktop via package manager
+
+## Setup Database
+docker compose up -d
