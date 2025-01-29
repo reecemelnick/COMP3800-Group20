@@ -1,0 +1,43 @@
+{
+    "name": "comp3800-group20",
+    "version": "1.0.0",
+    "description": "placeholder",
+    "main": "index.js",
+    "scripts": {
+        "local": "node src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:reecemelnick/COMP3800-Group20.git"
+    },
+    "author": {
+        "name": "Reece Melnick",
+        "email": "rmelnick1@my.bcit.ca",
+        "url": "https://github.com/reecemelnick"
+    },
+    "contributors": [
+        {
+            "name": "Lok, Ryan",
+            "email": "rlok.pc@gmail.com"
+        },
+        {
+            "name": "Li, Louise",
+            "email": "louiseyli.educ@gmail.com"
+        },
+        {
+            "name": "Liao, Wei-Yu",
+            "email": "wyliao76@gmail.com"
+        }
+    ],
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.57.1",
+        "eslint-config-google": "^0.14.0",
+        "eslint-plugin-jest": "^28.11.0",
+        "eslint-watch": "^8.0.0",
+        "jest": "^29.7.0"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    }
+}
