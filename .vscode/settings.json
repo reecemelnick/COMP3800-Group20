@@ -6,13 +6,5 @@
     "editor.detectIndentation": false,
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
-    "cSpell.words": [
-        "pymssql",
-        "boto",
-        "SSID",
-        "sqlalchemy",
-        "systembarcode",
-        "pandera",
-        "stepfunctions",
-    ]
+    "cSpell.words": []
 }

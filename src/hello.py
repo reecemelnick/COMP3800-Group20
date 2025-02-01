@@ -9,7 +9,6 @@ sync_engine = create_engine(
 def main():
     try:
         with sync_engine.connect() as connection:
-            # with connection.begin():
                 connection.execute(text("DROP TABLE IF EXISTS canada;"))
                 connection.execute(text("DROP TABLE IF EXISTS dubai;"))
 

@@ -4,7 +4,7 @@
     "description": "placeholder",
     "main": "index.js",
     "scripts": {
-        "local": "node src/index.js"
+        "local": "NODE_ENV=local nodemon src/index.js"
     },
     "repository": {
         "type": "git",
@@ -31,13 +31,16 @@
     ],
     "license": "ISC",
     "devDependencies": {
+        "dotenv": "^16.4.7",
         "eslint": "^8.57.1",
         "eslint-config-google": "^0.14.0",
         "eslint-plugin-jest": "^28.11.0",
         "eslint-watch": "^8.0.0",
-        "jest": "^29.7.0"
+        "jest": "^29.7.0",
+        "nodemon": "^3.1.9"
     },
     "dependencies": {
+        "compression": "^1.7.5",
         "express": "^4.21.2"
     }
 }
