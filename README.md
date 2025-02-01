@@ -12,7 +12,7 @@ curl -fsSL https://pyenv.run | bash
 ### Python
 
 # Install
-pyenv install 3.11.2
+pyenv install 3.13.0
 
 # Create virtual env
 python3 -m venv venv
