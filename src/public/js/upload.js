@@ -1,20 +1,20 @@
-const dropZone = document.getElementById('dropZone')
+const fileDrop = document.getElementById('file-drop')
 const formFile = document.getElementById('formFile')
 
-dropZone.addEventListener('click', () => formFile.click())
+fileDrop.addEventListener('click', () => formFile.click())
 
-dropZone.addEventListener('dragover', (e) => {
+fileDrop.addEventListener('dragover', (e) => {
     e.preventDefault()
-    dropZone.classList.add('bg-light')
+    fileDrop.classList.add('bg-light')
 })
 
-dropZone.addEventListener('dragleave', () => {
-    dropZone.classList.remove('bg-light')
+fileDrop.addEventListener('dragleave', () => {
+    fileDrop.classList.remove('bg-light')
 })
 
-dropZone.addEventListener('drop', (e) => {
+fileDrop.addEventListener('drop', (e) => {
     e.preventDefault()
-    dropZone.classList.remove('bg-light')
+    fileDrop.classList.remove('bg-light')
 
     files = e.dataTransfer.files
 
@@ -22,16 +22,23 @@ dropZone.addEventListener('drop', (e) => {
         alert("Please drop exactly one file.");
         return;
     }
+    const fileName = files[0].name
+    const fileExtension = fileName.split('.').pop().toLowerCase();
+
+    if (!fileExtension.includes('csv')) {
+        alert("Please attach .csv files only.");
+        return;
+    }
 
     formFile.files = e.dataTransfer.files
-    updateDropZoneText()
+    updatefileDropText()
     console.log(formFile.files)
 })
 
-formFile.addEventListener('change', updateDropZoneText)
+formFile.addEventListener('change', updatefileDropText)
 
-function updateDropZoneText() {
-    dropZone.textContent =
+function updatefileDropText() {
+    fileDrop.textContent =
         formFile.files.length > 0
             ? formFile.files[0].name
             : 'Drag and drop a file here or click to select'
