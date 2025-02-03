@@ -24,6 +24,30 @@ formFile.addEventListener('change', (e) => {
     }
 })
 
+submit.addEventListener("click", async (e) => {
+    const loadOverlay = document.getElementById('loading-overlay')
+    loadOverlay.classList.toggle('d-none')
+
+    const formData = new FormData()
+    formData.append('file', formFile.file)
+
+    try {
+        const response = await fetch('/upload-data', {
+            method: 'POST',
+            body: formData, // Send the form data containing the file
+        });
+
+        if (!response.ok) {
+            alert(`Upload error: ${response.status}`);
+        }
+        const result = await response.json();
+        alert('Data uploaded to database')
+    } catch (error) {
+        alert('Failed to reach server: ' + error.message);
+    }
+    loadOverlay.classList.toggle('d-none')
+})
+
 function updatefileDropText() {
     fileDrop.textContent =
         formFile.file
@@ -45,7 +69,6 @@ function validateFile(files) {
         alert("Please attach .csv files only.");
         return false
     }
-
     formFile.file = files[0]
     updatefileDropText()
     toggleSubmit(false);
