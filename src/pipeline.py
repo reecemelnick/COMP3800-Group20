@@ -1,0 +1,68 @@
+import pandas as pd
+from sqlalchemy import create_engine, text
+from pathlib import Path
+
+
+class Pipeline:
+    def __init__(self):
+        self.url = "postgresql+psycopg://admin:123456@localhost/test"
+        self.connect()
+
+    def connect(self):
+        self.sync_engine = create_engine(
+            self.url,
+            isolation_level='AUTOCOMMIT'
+        )
+
+    def cleanup(self):
+        with self.sync_engine.connect() as connection:
+            with open("../sql/ddl/dropTables.sql", "r") as file:
+                connection.execute(text(file.read()))
+    
+    def extra(self, f_name):
+        file_type = Path(f_name).suffix
+        if file_type == ".csv": 
+            self.df = pd.read_csv(f_name)
+        elif file_type == ".xlsx": 
+            self.df = pd.read_excel(f_name)
+        else:
+            print("Not supported file type!")
+        
+
+    def transform(self):
+        self.df = self.df.dropna(axis=1, how="all") 
+        self.df.columns = self.df.columns.str.replace(r"[^a-zA-Z0-9_]", "_", regex=True).str.lower()
+        # print(self.df.head())
+
+    def load(self, table_name):
+        self.df.to_sql(name=table_name, con=self.sync_engine, if_exists="replace")
+
+    def run(self, f_name, table_name):
+        try:
+            self.extra(f_name)
+            self.transform()
+            self.load(table_name)
+        except Exception as e:
+            print(e)
+
+    def run_dir(self, dir_name):
+        dir_path = Path(dir_name)
+
+        # Iterate over each file in the directory
+        for f_name in dir_path.iterdir():
+            print(f_name)
+            try:
+                self.extra(f_name)
+                self.transform()
+                self.load(Path(f_name).stem)
+                print("-" * 50)  # Separator between files
+            except Exception as e:
+                print(e)
+
+
+if __name__ == "__main__":
+    pipeline = Pipeline()
+    # pipeline.run_dir("../raw_data")
+    pipeline.run("../data/canada.csv", "canada")
+    pipeline.run("../data/dubai.csv", "dubai")
+    # pipeline.cleanup()
