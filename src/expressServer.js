@@ -7,7 +7,7 @@ const server = require('http').createServer(app)
 app.use(compression())
 app.use(express.json({ limit: '50mb' }))
 app.use(express.urlencoded({ extended: true }))
-// app.use(express.static(__dirname + '/public'))
+app.use(express.static(path.join(__dirname + '/public')))
 
 const mongoUrl = process.env.NODE_ENV === 'local' ?
     `mongodb://${process.env.DATABASE_USERNAME}:${process.env.DATABASE_PASSWORD}@${process.env.DATABASE_HOST}:${process.env.DATABASE_PORT}/?authSource=admin&replicaSet=rs0&retryWrites=true&w=majority&directConnection=true` :
