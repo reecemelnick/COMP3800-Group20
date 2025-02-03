@@ -1,5 +1,6 @@
 const fileDrop = document.getElementById('file-drop')
 const formFile = document.getElementById('formFile')
+const submit = document.getElementById('submit-btn')
 
 fileDrop.addEventListener('click', () => formFile.click())
 
@@ -18,7 +19,7 @@ fileDrop.addEventListener('drop', (e) => {
 })
 
 formFile.addEventListener('change', (e) => {
-    if (!validateFile(e.target.files)) {
+    if (e.target.files.length != 0 && !validateFile(e.target.files)) {
         e.target.value = ''
     }
 })
