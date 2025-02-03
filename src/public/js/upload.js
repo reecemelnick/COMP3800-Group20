@@ -26,8 +26,8 @@ formFile.addEventListener('change', (e) => {
 
 function updatefileDropText() {
     fileDrop.textContent =
-        formFile.files.length > 0
-            ? formFile.files[0].name
+        formFile.file
+            ? formFile.file.name
             : 'Drag and drop a file here or click to select'
 }
 
@@ -48,5 +48,10 @@ function validateFile(files) {
 
     formFile.file = files[0]
     updatefileDropText()
+    toggleSubmit(false);
     return true
+}
+
+function toggleSubmit(bool) {
+    submit.disabled = bool
 }
