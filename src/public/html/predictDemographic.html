@@ -17,10 +17,8 @@
             <div class="col-sm">
                 <h3>Demographic Information</h3>
                 <fieldset class="" id="form-group-demographic-info">
-                    <div id="field-sex">
-                        <legend class="col-form-label col-sm-2 pt-0">
-                            <h5>Sex</h5>
-                        </legend>
+                    <div class="row" id="field-sex">
+                        <h5>Sex</h5>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="gridSex" id="radioMale" value="male"
                                 checked>
@@ -35,29 +33,56 @@
                             </label>
                         </div>
                     </div>
-                    <h5>Location</h5>
-                    <h5>Birthdate</h5>
+                    <div class="row">
+                        <h5>Location</h5>
+                        <div class="col-md-auto">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Select City
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Dubai</a></li>
+                                    <li><a class="dropdown-item" href="#">Sharjah</a></li>
+                                    <li><a class="dropdown-item" href="#">Fujairah</a></li>
+                                    <li><a class="dropdown-item" href="#">Ras Al Khaimah</a></li>
+                                    <li><a class="dropdown-item" href="#">Abu Dhabi</a></li>
+                                    <li><a class="dropdown-item" href="#">Dubai</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <h5>Birthdate</h5>
                     <h5>Socioeconomic Status</h5>
-                    <h5>Time in UAE?</h5>
+                    <h5>Time in UAE?</h5> -->
                 </fieldset>
             </div>
         </div>
         </div>
         <div class="row">
-            <fieldset id="form-group-lifestyle-health">
-            </fieldset>
+            <div class="col-sm">
+                <fieldset id="form-group-lifestyle-health">
+                </fieldset>
+            </div>
         </div>
         <div class="row">
-            <fieldset id="form-group-booking-preference">
-            </fieldset>
+            <div class="col-sm">
+                <fieldset id="form-group-booking-preference">
+                </fieldset>
+            </div>
         </div>
         <div class="row">
-            <fieldset id="form-group-additional">
-            </fieldset>
+            <div class="col-sm">
+                <fieldset id="form-group-additional">
+                </fieldset>
+            </div>
         </div>
         <div class="row">
-            <div id="form-submit">
-                <!-- <button type="submit" class="btn btn-primary" id="form-calculate">CALCULATE</button> -->
+            <div class="col-sm">
+                <div id="form-submit">
+                    <!-- <button type="submit" class="btn btn-primary" id="form-calculate">CALCULATE</button> -->
+                </div>
             </div>
         </div>
     </form>
