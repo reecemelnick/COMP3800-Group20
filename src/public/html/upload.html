@@ -12,16 +12,26 @@
 
 <body>
     <div id="nav-placeholder"></div>
-
-    <div class="d-flex justify-content-center align-items-center flex-column" style="height: 100vh;">
-        <div class="mb-3">
-            <label for="formFile" class="form-label">Upload your file</label>
-            <div id="file-drop" class="border border-primary rounded p-4 text-center" style="user-select: none;">
-                Drag and drop a file here or click to select
+    <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <div class="card m-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">CSV format requirements:</h5>
+                <p class="card-text">Some quick example text to that will explain what columns the csv file needs, and
+                    what kind of
+                    format the values of the columns the server expects.
+                </p>
             </div>
-            <input type="file" id="formFile" name="file" class="d-none" accept=".csv" />
         </div>
-        <button type="button" id='submit-btn' class="btn btn-lg btn-primary" disabled>Upload</button>
+        <div class="d-flex flex-column">
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Upload your csv file</label>
+                <div id="file-drop" class="border border-primary rounded p-4 text-center" style="user-select: none;">
+                    Drag and drop a file here or click to select
+                </div>
+                <input type="file" id="formFile" name="file" class="d-none" accept=".csv" />
+            </div>
+            <button type="button" id='submit-btn' class="btn btn-lg btn-primary" disabled>Upload</button>
+        </div>
     </div>
     <div class="overlay d-none" id="loading-overlay">
         <div class="overlay__inner">
