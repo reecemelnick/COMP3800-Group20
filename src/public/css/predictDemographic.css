@@ -1,0 +1,14 @@
+.form-group {
+    border: 2px solid lightgray;
+    padding: 1em;
+    margin: 1em;
+}
+
+#demographicProbability {
+    padding: 1em;
+}
+
+.dropdown-menu {
+    max-height: 200px;
+    overflow-y: scroll;
+}
