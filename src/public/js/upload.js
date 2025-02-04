@@ -42,6 +42,7 @@ submit.addEventListener('click', async (e) => {
         }
         const result = await response.json()
         alert('Data uploaded to database')
+        window.location.reload()
     } catch (error) {
         alert('Failed to reach server: ' + error.message)
     }
