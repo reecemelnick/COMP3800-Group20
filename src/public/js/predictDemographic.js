@@ -9,4 +9,13 @@ birthdate.addEventListener('change', (e) => {
     const month = parseInt(split_birthdate[1]);
     const day = parseInt(split_birthdate[2]);
 
-})
+});
+
+let calculateBtn = document.getElementById('form-calculate');
+
+calculateBtn.addEventListener('click', (e) => {
+    const probability = 75;
+
+    document.getElementById('probabilityValue').innerText = probability;
+
+});
