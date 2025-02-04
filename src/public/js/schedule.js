@@ -28,7 +28,22 @@
         'Dec 2026': 224,
     }
 
+    // try {
+    //     const response = await fetch('/schedule-data', {
+    //         method: 'GET',
+    //     })
 
+    //     if (response.status === 200) {
+    //         return response.json()  // Parse JSON if status is 200
+    //     } else {
+    //         alert(`Error fetching data: ${response.status}`)
+    //     }
+
+    //     const data = JSON.parse(await response.json())
+
+    // } catch (error) {
+    //     alert('Failed to reach server: ' + error.message)
+    // }
 
     new Chart(
         document.getElementById('chart'),
