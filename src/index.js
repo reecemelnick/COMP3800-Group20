@@ -10,7 +10,7 @@ const launch = async () => {
         // console.log('MongoDB connect successful.')
         // if (process.send) process.send('ready')
 
-        server.listen(process.env.PORT, () => {
+        server.listen(8000, () => {
             const { address, port } = server.address()
             console.log('Server is listening at http://%s:%s', address, port)
             console.log(`Process is running now on ${app.get('env')}. (pid: ${process.pid})`)
