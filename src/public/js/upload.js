@@ -15,16 +15,16 @@ fileDrop.addEventListener('dragleave', () => {
 
 fileDrop.addEventListener('drop', (e) => {
     e.preventDefault()
-    validateFile(e.dataTransfer.files);
+    validateFile(e.dataTransfer.files)
 })
 
 formFile.addEventListener('change', (e) => {
-    if (e.target.files.length != 0 && !validateFile(e.target.files)) {
+    if (e.target.files.length !== 0 && !validateFile(e.target.files)) {
         e.target.value = ''
     }
 })
 
-submit.addEventListener("click", async (e) => {
+submit.addEventListener('click', async (e) => {
     const loadOverlay = document.getElementById('loading-overlay')
     loadOverlay.classList.toggle('d-none')
 
@@ -35,15 +35,15 @@ submit.addEventListener("click", async (e) => {
         const response = await fetch('/upload-data', {
             method: 'POST',
             body: formData, // Send the form data containing the file
-        });
+        })
 
         if (!response.ok) {
-            alert(`Upload error: ${response.status}`);
+            alert(`Upload error: ${response.status}`)
         }
-        const result = await response.json();
+        const result = await response.json()
         alert('Data uploaded to database')
     } catch (error) {
-        alert('Failed to reach server: ' + error.message);
+        alert('Failed to reach server: ' + error.message)
     }
     loadOverlay.classList.toggle('d-none')
 })
@@ -59,19 +59,19 @@ function validateFile(files) {
     fileDrop.classList.remove('bg-light')
 
     if (files.length !== 1) {
-        alert("Please drop exactly one file.");
+        alert('Please drop exactly one file.')
         return false
     }
     const fileName = files[0].name
-    const fileExtension = fileName.split('.').pop().toLowerCase();
+    const fileExtension = fileName.split('.').pop().toLowerCase()
 
     if (!fileExtension.includes('csv')) {
-        alert("Please attach .csv files only.");
+        alert('Please attach .csv files only.')
         return false
     }
     formFile.file = files[0]
     updatefileDropText()
-    toggleSubmit(false);
+    toggleSubmit(false)
     return true
 }
 

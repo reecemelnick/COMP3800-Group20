@@ -47,6 +47,10 @@ app.get('/health', (_, res) => {
     return res.status(200).send('ok')
 })
 
+app.get('/upload', (req, res) => {
+    return res.sendFile(path.resolve(__dirname, 'public', 'html', 'upload.html'))
+})
+
 app.post('/upload-data', upload.single('uploaded_file'), (req, res) => {
     return res.status(200).json({
         status: 'ok',
