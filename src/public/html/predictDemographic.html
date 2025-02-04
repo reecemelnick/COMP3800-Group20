@@ -108,6 +108,7 @@
         </div>
         <div class="row form-group">
             <div class="col-sm">
+                <h3>Lifestyle & Health</h3>
                 <fieldset id="form-group-lifestyle-health">
                     <div class="row" id="form-field-lifestyle">
                         <h5>Lifestyle</h5>
@@ -207,20 +208,66 @@
         </div>
         <div class="row form-group">
             <div class="col-sm">
-                <fieldset id="form-group-booking-preference">
+                <h3>Booking</h3>
+                <fieldset id="form-group-booking">
+                    <div class="row" id="form-field-recallfrequency">
+                        <h5>Recall Frequency</h5>
+                        <div class="col-md-auto">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Select
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">3 Months</a></li>
+                                    <li><a class="dropdown-item" href="#">6 Months</a></li>
+                                    <li><a class="dropdown-item" href="#">Yearly</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><br />
                 </fieldset>
             </div>
         </div>
         <div class="row form-group">
             <div class="col-sm">
+                <h3>Additional</h3>
                 <fieldset id="form-group-additional">
+                    <div class="row" id="form-field-referralsource">
+                        <h5>Referral Source</h5>
+                        <div class="col-md-auto">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Select
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">External Referral</a></li>
+                                    <li><a class="dropdown-item" href="#">Jumeirah</a></li>
+                                    <li><a class="dropdown-item" href="#">DRA Staff</a></li>
+                                    <li><a class="dropdown-item" href="#">Works in DIFC</a></li>
+                                    <li><a class="dropdown-item" href="#">Friend</a></li>
+                                    <li><a class="dropdown-item" href="#">Family</a></li>
+                                    <li><a class="dropdown-item" href="#">Online</a></li>
+                                    <li><a class="dropdown-item" href="#">Walk in</a></li>
+                                    <li><a class="dropdown-item" href="#">Radio</a></li>
+                                    <li><a class="dropdown-item" href="#">Hotel</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><br />
                 </fieldset>
             </div>
         </div>
-        <div class="row form-group">
-            <div class="col-sm">
+        <div class="row form-group justify-content-between">
+            <div class="col-md-auto">
                 <div id="form-submit">
-                    <!-- <button type="submit" class="btn btn-primary" id="form-calculate">CALCULATE</button> -->
+                    <button type="submit" class="btn btn-primary" id="form-calculate">CALCULATE</button>
+                </div>
+            </div>
+            <div class="col-md-auto">
+                <div id="demographicProbability">
+                    <span id="probabilityValue"></span>%
                 </div>
             </div>
         </div>
