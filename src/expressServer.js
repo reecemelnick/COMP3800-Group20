@@ -1,6 +1,19 @@
 const express = require('express')
 const path = require('path')
 const compression = require('compression')
+const multer = require('multer')
+const { v4: uuidv4 } = require('uuid')
+
+const storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+        cb(null, './data')
+    },
+    filename: function (req, file, cb) {
+        cb(null, uuidv4() + '.csv')
+    },
+})
+
+const upload = multer({ storage: storage })
 
 const app = express()
 const server = require('http').createServer(app)
@@ -26,12 +39,18 @@ const options = {
     ttl: process.env.SESSION_TTL,
 }
 
-app.use('/', (req, res) => {
-    return res.status(200).send("Hello")
+app.get('/', (req, res) => {
+    return res.status(200).send('Hello')
 })
 
 app.get('/health', (_, res) => {
     return res.status(200).send('ok')
+})
+
+app.post('/upload-data', upload.single('uploaded_file'), (req, res) => {
+    return res.status(200).json({
+        status: 'ok',
+    })
 })
 
 app.get('*', (req, res) => {

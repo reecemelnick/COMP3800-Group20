@@ -12,7 +12,7 @@ curl -fsSL https://pyenv.run | bash
 ### Python
 
 # Install
-pyenv install 3.11.2
+pyenv install 3.13.0
 
 # Create virtual env
 python3 -m venv venv
@@ -25,6 +25,18 @@ pip3 install -r requirements-dev.txt
 
 # Deactivate
 deactivate
+
+## set PYTHONPATH
+export PYTHONPATH="${PYTHONPATH}:/path/to/your/lambda/"
+
+## unittest
+python -m unittest tests/src/* -v
+
+## formatter
+autopep8 --in-place -r src/
+
+# disable __pycache__
+export PYTHONDONTWRITEBYTECODE=1
 
 ### Docker
 
