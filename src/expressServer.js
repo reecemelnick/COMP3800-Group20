@@ -27,7 +27,7 @@ const options = {
 }
 
 app.use('/', (req, res) => {
-    return res.status(200).send("Hello")
+    return res.status(200).send('Hello')
 })
 
 app.get('/health', (_, res) => {
