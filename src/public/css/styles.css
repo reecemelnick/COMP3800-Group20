@@ -1,7 +1,5 @@
 .form-group {
     border: 2px solid lightgray;
-    /* Use 'solid' for a solid border */
     padding: 1em;
     margin: 1em;
-    /* Add some padding for better readability */
 }
