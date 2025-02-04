@@ -17,7 +17,8 @@
             <div class="col-sm">
                 <h3>Demographic Information</h3>
                 <fieldset class="" id="form-group-demographic-info">
-                    <div class="row" id="field-sex">
+
+                    <div class="row" id="form-field-sex">
                         <h5>Sex</h5>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="gridSex" id="radioMale" value="male"
@@ -32,8 +33,9 @@
                                 Female
                             </label>
                         </div>
-                    </div>
-                    <div class="row">
+                    </div><br />
+
+                    <div class="row" id="form-field-location">
                         <h5>Location</h5>
                         <div class="col-md-auto">
                             <div class="dropdown">
@@ -42,6 +44,7 @@
                                     Select City
                                 </button>
                                 <ul class="dropdown-menu">
+                                    <!-- TODO: Hardcoded. Later will make db query to fetch all unique cities and inject as items -->
                                     <li><a class="dropdown-item" href="#">Dubai</a></li>
                                     <li><a class="dropdown-item" href="#">Sharjah</a></li>
                                     <li><a class="dropdown-item" href="#">Fujairah</a></li>
@@ -51,9 +54,16 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div><br />
 
-                    <!-- <h5>Birthdate</h5>
+                    <div class="row" id="form-field-birthdate">
+                        <h5>Birthdate</h5>
+                        <div class="col-3">
+                            <input id="birthdate" class="form-control" type="date" />
+                            <span id="birthdateSelected"></span>
+                        </div>
+                    </div><br />
+                    <!-- 
                     <h5>Socioeconomic Status</h5>
                     <h5>Time in UAE?</h5> -->
                 </fieldset>
