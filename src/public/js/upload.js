@@ -29,7 +29,7 @@ submit.addEventListener("click", async (e) => {
     loadOverlay.classList.toggle('d-none')
 
     const formData = new FormData()
-    formData.append('file', formFile.file)
+    formData.append('uploaded_file', formFile.file)
 
     try {
         const response = await fetch('/upload-data', {
