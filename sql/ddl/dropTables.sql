@@ -1,3 +1,3 @@
-drop table if exists canada;
-drop table if exists dubai;
-
+DROP TABLE IF EXISTS canada;
+DROP TABLE IF EXISTS dubai;
+DROP TABLE IF EXISTS dubai_clean;
