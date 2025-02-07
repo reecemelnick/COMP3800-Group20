@@ -1,14 +1,14 @@
 require('dotenv').config({ path: `${__dirname}/.env.${process.env.NODE_ENV}` })
-const { server, app, mongoUrl } = require('./expressServer')
+const { server, app, client } = require('./expressServer')
 
 
 const launch = async () => {
     try {
-        // await Promise.all([
-        //     mongoose.connect(mongoUrl, mongoOptions),
-        // ])
-        // console.log('MongoDB connect successful.')
-        // if (process.send) process.send('ready')
+        await Promise.all([
+            client.connect(),
+        ])
+        console.log('MongoDB connect successful.')
+        if (process.send) process.send('ready')
 
         server.listen(process.env.PORT, () => {
             const { address, port } = server.address()

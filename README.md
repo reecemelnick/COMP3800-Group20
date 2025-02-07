@@ -48,4 +48,4 @@ docker compose up -d
 
 ## Run
 cd src
-python3 hello.py
+python3 pipeline.py

@@ -63,7 +63,7 @@ class Pipeline:
             'referral_source2': 20,
             'how_long_have_they_been_in_uae': 50,
             'occupation': 100,
-            'preferred_method_of_comms': 15
+            'preferred_method_of_comms': 15,
         }
 
         for column, max_len in max_lengths.items():
@@ -76,7 +76,7 @@ class Pipeline:
 
     def load(self, table_name):
         self.df.to_sql(name=table_name, con=self.sync_engine, if_exists="replace")
-    
+
     def process_data(self):
         with self.sync_engine.connect() as connection:
             with open("../sql/dml/insertDubai.sql", "r") as file:
@@ -112,5 +112,5 @@ if __name__ == "__main__":
     pipeline.createTable()
     # pipeline.run_dir("../raw_data")
     # pipeline.run("../data/canada.csv", "canada")
-    pipeline.run("../data/dubai.csv", "dubai")
+    pipeline.run("../raw_data/dubai.csv", "dubai")
     pipeline.process_data()
