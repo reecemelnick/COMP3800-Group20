@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS public.dubai_clean (
+    index SERIAL PRIMARY KEY,
+    patientcode INT,
+    location VARCHAR(20),
+    date_of_birth DATE,
+    health_habits VARCHAR(20),
+    lifestyle VARCHAR(10),
+    gender_assigned_at_birth BOOLEAN,
+    diet VARCHAR(15),
+    socioeconomic_status VARCHAR(10),
+    recall_frequency SMALLINT,
+    health_concerns VARCHAR(20),
+    date_of_last_visit TIMESTAMP,
+    referral_source2 VARCHAR(20),
+    hobbies TEXT,
+    how_long_have_they_been_in_uae VARCHAR(50),
+    occupation VARCHAR(100),
+    preferred_method_of_comms VARCHAR(15),
+    createdAt TIMESTAMP,
+    updatedAt TIMESTAMP
+);
