@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS public.upload_history (
+    id SERIAL PRIMARY KEY,
+    fileName VARCHAR(50),
+    fileNameOriginal VARCHAR(100),
+    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
