@@ -2,6 +2,7 @@ const express = require('express')
 const path = require('node:path')
 const compression = require('compression')
 const { uploadRouter } = require('./routers')
+const { client } = require('./util')
 
 const app = express()
 const server = require('http').createServer(app)
@@ -18,8 +19,11 @@ app.get('/health', (_, res) => {
     return res.status(200).send('ok')
 })
 
-app.get('/schedule', (req, res) => {
-    return res.sendFile(path.resolve(__dirname, 'public', 'html', 'schedule.html'))
+app.get('/schedule', async (req, res) => {
+    const result = await client.query('SELECT * FROM schedule_count_view')
+    return res.status(200).json({
+        data: result.rows,
+    })
 })
 
 app.use('/upload', uploadRouter)
