@@ -1,6 +1,7 @@
 const form = document.getElementById('predict-form');
 const birthdate = document.getElementById('birthdate');
 const calculateBtn = document.getElementById('form-calculate');
+const sex_buttons = document.querySelectorAll("#form-field-sex .form-check input");
 
 birthdate.addEventListener('change', (e) => {
     const birthdateVal = e.target.value;
@@ -79,17 +80,27 @@ function setupDropdownEventListeners() {
 }
 
 function cleanDropdownText(text) {
-    console.log("in clean");
     return text.trim().replace(/\n/g, '');
+}
+
+function getSelectedRadio(buttons) {
+    let selected_button;
+    buttons.forEach((button) => {
+        if (button.hasAttribute("checked")) {
+            selected_button = button;
+        }
+    })
+    return selected_button;
 }
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-
+    // const selected_sex_button = getSelectedRadio(sex_buttons);
     const location = cleanDropdownText(document.getElementById('dropdown-location').textContent);
     const healthHabits = cleanDropdownText(document.getElementById('dropdown-healthhabits').textContent);
 
     const formData = {
+        // sex: sex,
         location: location,
         health_habits: healthHabits
     };
