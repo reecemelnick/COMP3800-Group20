@@ -23,6 +23,10 @@ app.get('/schedule', (req, res) => {
     return res.sendFile(path.resolve(__dirname, 'public', 'html', 'schedule.html'))
 })
 
+app.get('/predictdemographic', (req, res) => {
+    return res.sendFile(path.resolve(__dirname, 'public', 'html', 'predictDemographic.html'))
+})
+
 app.get('/getschedule', async (req, res) => {
     const result = await client.query('SELECT * FROM schedule_count_view')
     return res.status(200).json({
