@@ -1,5 +1,6 @@
-let birthdate = document.getElementById('birthdate');
-let calculateBtn = document.getElementById('form-calculate');
+const form = document.getElementById('predict-form');
+const birthdate = document.getElementById('birthdate');
+const calculateBtn = document.getElementById('form-calculate');
 
 birthdate.addEventListener('change', (e) => {
     const birthdateVal = e.target.value;
@@ -76,5 +77,24 @@ function setupDropdownEventListeners() {
     updateDropdownButtonText(document.getElementById('dropdown-referralsource'),
         document.querySelectorAll('#form-field-referralsource .dropdown-item'));
 }
+
+function cleanDropdownText(text) {
+    console.log("in clean");
+    return text.trim().replace(/\n/g, '');
+}
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    const location = cleanDropdownText(document.getElementById('dropdown-location').textContent);
+    const healthHabits = cleanDropdownText(document.getElementById('dropdown-healthhabits').textContent);
+
+    const formData = {
+        location: location,
+        health_habits: healthHabits
+    };
+
+    console.log(formData);
+});
 
 setupDropdownEventListeners();
