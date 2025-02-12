@@ -79,7 +79,6 @@ function updateChart(chart, data) {
     //Refresh chart
     chart.update();
 }
-<<<<<<< HEAD
 
 /*This function may not be needed in the future if backend is able to provide data that is only relevant from this month onwards */
 function filterData(data) {
@@ -92,5 +91,3 @@ function filterData(data) {
             (elementDate.getFullYear() === currentYear && elementDate.getMonth() >= currentMonth);
     })
 }
-=======
->>>>>>> 140b5ce (Implemented fetch request for schedule data)
