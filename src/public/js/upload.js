@@ -2,6 +2,7 @@ const fileDrop = document.getElementById('file-drop')
 const formFile = document.getElementById('formFile')
 const submit = document.getElementById('submit-btn')
 
+
 fileDrop.addEventListener('click', () => formFile.click())
 
 fileDrop.addEventListener('dragover', (e) => {
@@ -78,3 +79,37 @@ function validateFile(files) {
 function toggleSubmit(bool) {
     submit.disabled = bool
 }
+
+(async function () {
+    const tableBody = document.getElementById('table-body')
+    let data = null
+    try {
+        const response = await fetch('/upload/index', {
+            method: 'GET',
+        })
+
+        if (response.status === 200) {
+            data = await response.json()
+        } else {
+            alert(`Error fetching upload history: ${response.status}`)
+        }
+
+    } catch (error) {
+        alert('Failed to reach server: ' + error.message)
+    }
+
+    if (data) {
+        data.data.forEach(elem => {
+            const historyEntry = document.createElement('tr')
+            const fileName = document.createElement('td')
+            const uploadTime = document.createElement('td')
+
+            fileName.textContent = elem.filenameoriginal
+            const date = new Date(elem.createdat)
+            uploadTime.textContent = date.toISOString().replace('T', ' ').split('.')[0];
+
+            historyEntry.append(fileName, uploadTime)
+            tableBody.appendChild(historyEntry)
+        })
+    }
+})()
