@@ -80,8 +80,11 @@ function updateChart(chart, data) {
     chart.update();
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 28f7b42 (Implement data filtering to filter data from past months)
 
 >>>>>>> 89d4cb9 (Implemented fetch request for schedule data)
 /*This function may not be needed in the future if backend is able to provide data that is only relevant from this month onwards */
@@ -94,9 +97,13 @@ function filterData(data) {
         return (elementDate.getFullYear() > currentYear) ||
             (elementDate.getFullYear() === currentYear && elementDate.getMonth() >= currentMonth);
     })
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> 140b5ce (Implemented fetch request for schedule data)
 >>>>>>> 89d4cb9 (Implemented fetch request for schedule data)
+=======
+}
+>>>>>>> 28f7b42 (Implement data filtering to filter data from past months)
