@@ -80,7 +80,11 @@ function setupDropdownEventListeners() {
 }
 
 function cleanDropdownText(text) {
-    return text.trim().replace(/\n/g, '');
+    text = text.trim().replace(/\n/g, '');
+    if (text === 'N/A' || text == 'Select') {
+        text = "";
+    }
+    return text;
 }
 
 function getSelectedRadio(buttons) {
@@ -93,7 +97,7 @@ function getSelectedRadio(buttons) {
     return selected_button;
 }
 
-form.addEventListener('submit', (event) => {
+form.addEventListener('submit', async (event) => {
     event.preventDefault();
     // const selected_sex_button = getSelectedRadio(sex_buttons);
     const location = cleanDropdownText(document.getElementById('dropdown-location').textContent);
@@ -105,7 +109,24 @@ form.addEventListener('submit', (event) => {
         health_habits: healthHabits
     };
 
-    console.log(formData);
+    try {
+        const res = await fetch('/predictdemographic/calculate', {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        });
+        if (!res.ok) {
+            console.log(`Response status: ${res.status}`);
+        } else {
+            const data = await res.json();
+            console.log(data);
+        }
+    } catch (err) {
+        console.error(err.message);
+    }
+
 });
 
 setupDropdownEventListeners();
