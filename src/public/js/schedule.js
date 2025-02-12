@@ -31,13 +31,8 @@
             },
         },
     )
-<<<<<<< HEAD
     let data = (await getSchedule()).data
     data = filterData(data)
-=======
-
-    const data = (await getSchedule()).data
->>>>>>> 140b5ce (Implemented fetch request for schedule data)
     console.log(data)
     updateChart(chart, data)
 })()
@@ -71,11 +66,7 @@ function updateChart(chart, data) {
 
     // Set the values of each bar
     chart.data.labels = labels;
-<<<<<<< HEAD
     chart.data.datasets[0].data = data.map((element) => element.total);
-=======
-    chart.data.datasets[0].data = data.map((element) => element.count);
->>>>>>> 140b5ce (Implemented fetch request for schedule data)
 
     //Current month-year as a string
     const currentMonthYear = new Date().toLocaleString('default', { month: 'long', year: 'numeric' });
@@ -88,8 +79,6 @@ function updateChart(chart, data) {
     //Refresh chart
     chart.update();
 }
-<<<<<<< HEAD
-
 /*This function may not be needed in the future if backend is able to provide data that is only relevant from this month onwards */
 function filterData(data) {
     return data.filter(element => {
@@ -101,5 +90,3 @@ function filterData(data) {
             (elementDate.getFullYear() === currentYear && elementDate.getMonth() >= currentMonth);
     })
 }
-=======
->>>>>>> 140b5ce (Implemented fetch request for schedule data)
