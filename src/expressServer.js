@@ -34,6 +34,10 @@ app.get('/getschedule', async (req, res) => {
     })
 })
 
+app.get('/upload', (req, res) => {
+    return res.sendFile(path.resolve(__dirname, 'public', 'html', 'upload.html'))
+})
+
 app.use('/upload', uploadRouter)
 
 app.get('*', (req, res) => {
