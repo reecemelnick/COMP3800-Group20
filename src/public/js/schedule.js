@@ -1,60 +1,15 @@
 (async function () {
 
-    //This is what the expected data from server looks like (key = month + year, value = anticipated number)
-    const mock = {
-        'Jan 2025': 250,
-        'Feb 2025': 280,
-        'Mar 2025': 130,
-        'Apr 2025': 300,
-        'May 2025': 352,
-        'Jun 2025': 123,
-        'Jul 2025': 57,
-        'Aug 2025': 501,
-        'Sep 2025': 444,
-        'Oct 2025': 123,
-        'Nov 2025': 112,
-        'Dec 2025': 224,
-        'Jan 2026': 250,
-        'Feb 2026': 280,
-        'Mar 2026': 130,
-        'Apr 2026': 300,
-        'May 2026': 352,
-        'Jun 2026': 123,
-        'Jul 2026': 57,
-        'Aug 2026': 501,
-        'Sep 2026': 444,
-        'Oct 2026': 123,
-        'Nov 2026': 112,
-        'Dec 2026': 224,
-    }
-
-    // try {
-    //     const response = await fetch('/schedule-data', {
-    //         method: 'GET',
-    //     })
-
-    //     if (response.status === 200) {
-    //         return response.json()  // Parse JSON if status is 200
-    //     } else {
-    //         alert(`Error fetching data: ${response.status}`)
-    //     }
-
-    //     const data = JSON.parse(await response.json())
-
-    // } catch (error) {
-    //     alert('Failed to reach server: ' + error.message)
-    // }
-
-    new Chart(
+    const chart = new Chart(
         document.getElementById('chart'),
         {
             type: 'bar',
             data: {
-                labels: Object.keys(mock),
+                // labels: Object.keys(mock),
                 datasets: [
                     {
                         label: 'Anticipated number of patients',
-                        data: Object.values(mock),
+                        // data: Object.values(mock),
                     },
                 ],
             },
@@ -76,4 +31,51 @@
             },
         },
     )
+
+    const data = (await getSchedule()).data
+    console.log(data)
+    updateChart(chart, data)
 })()
+
+
+async function getSchedule() {
+    try {
+        const response = await fetch('/getschedule', {
+            method: 'GET',
+        })
+
+        if (response.status === 200) {
+            return await response.json()
+        } else {
+            alert(`Error fetching data: ${response.status}`)
+            return NULL
+        }
+
+    } catch (error) {
+        alert('Failed to reach server: ' + error.message)
+        return NULL
+    }
+}
+
+function updateChart(chart, data) {
+    // Set the labels in Month-Year strings
+    const labels = data.map((element) => {
+        const dateStr = new Date(element.month).toLocaleDateString("en-US", { month: "long", year: "numeric" });
+        return dateStr;
+    });
+
+    // Set the values of each bar
+    chart.data.labels = labels;
+    chart.data.datasets[0].data = data.map((element) => element.count);
+
+    //Current month-year as a string
+    const currentMonthYear = new Date().toLocaleString('default', { month: 'long', year: 'numeric' });
+
+    // Update the backgroundColor, indicate which bar is current month-year
+    chart.data.datasets[0].backgroundColor = chart.data.datasets[0].data.map((value, index) => {
+        return labels[index] === currentMonthYear ? 'rgba(255, 99, 132, 1)' : 'rgba(54, 162, 235, 0.5)';
+    });
+
+    //Refresh chart
+    chart.update();
+}
