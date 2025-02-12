@@ -31,8 +31,8 @@
             },
         },
     )
-
-    const data = (await getSchedule()).data
+    let data = (await getSchedule()).data
+    data = filterData(data)
     console.log(data)
     updateChart(chart, data)
 })()
@@ -78,4 +78,16 @@ function updateChart(chart, data) {
 
     //Refresh chart
     chart.update();
+}
+
+/*This function may not be needed in the future if backend is able to provide data that is only relevant from this month onwards */
+function filterData(data) {
+    return data.filter(element => {
+        const currentDate = new Date();
+        const currentYear = currentDate.getFullYear();
+        const currentMonth = currentDate.getMonth();
+        const elementDate = new Date(element.month);
+        return (elementDate.getFullYear() > currentYear) ||
+            (elementDate.getFullYear() === currentYear && elementDate.getMonth() >= currentMonth);
+    })
 }
