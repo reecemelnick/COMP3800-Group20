@@ -3,6 +3,7 @@ const path = require('node:path')
 const compression = require('compression')
 const { uploadRouter } = require('./routers')
 const { client } = require('./util')
+const { runPy } = require('./util')
 
 const app = express()
 const server = require('http').createServer(app)
@@ -25,6 +26,18 @@ app.get('/schedule', (req, res) => {
 
 app.get('/predictdemographic', (req, res) => {
     return res.sendFile(path.resolve(__dirname, 'public', 'html', 'predictDemographic.html'))
+})
+
+// TODO: need to properly integrate reece's scripts
+app.post('/predictdemographic/calculate', express.json(), (req, res) => {
+    console.log(req.body)
+    runPy('src/services/test.py', [3], (err, result) => {
+        if (err) {
+            res.status(500).send(err);
+        } else {
+            res.send(JSON.stringify(result))
+        }
+    })
 })
 
 app.get('/getschedule', async (req, res) => {
