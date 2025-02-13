@@ -3,8 +3,6 @@ from tensorflow.keras.models import load_model
 import joblib
 import sys
 import json
-import os
-print("Current working directory:", os.getcwd())
 # Load saved model and encoders
 model = load_model("src/treatment_preference_model.h5")
 location_encoder = joblib.load("src/location_encoder.pkl")
@@ -12,8 +10,12 @@ health_habits_encoder = joblib.load("src/health_habits_encoder.pkl")
 label_encoder = joblib.load("src/label_encoder.pkl")
 scaler = joblib.load("src/scaler.pkl")
 
-# formData = json.loads(sys.argv[1])
-# print(f"Form Data: {formData}")
+formData = json.loads(sys.argv[1])
+# print(f"{formData}")
+# print(f"Form Data: {formData["health_habits"]}")
+
+# location = formData["location"]
+# health_habits = formData["health_habits"]
 
 location = "Vancouver"
 health_habits = "Exercise"
@@ -50,6 +52,6 @@ result = {
     "non_predicted_class": decoded_non_predicted_class
 }
 
-print("Content-Type: application/json") 
-print()
-print(json.dumps(result))
+# print("Content-Type: application/json") 
+# print()
+print(json.dumps(result), end="")

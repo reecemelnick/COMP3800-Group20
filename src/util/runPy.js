@@ -17,6 +17,11 @@ function runPythonScript(path, args, callback) {
     //  (data event) of stdout to data
     pyProcess.stdout.on('data', (chunk) => {
         data += chunk.toString();
+        try {
+            JSON.parse(data);
+        } catch (err) {
+            data = ""
+        }
     });
 
     // logs errors. when the child process's stderr descriptor has data, log it
