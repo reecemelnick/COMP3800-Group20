@@ -33,6 +33,20 @@
             </div>
             <button type="button" id='submit-btn' class="btn btn-lg btn-primary" disabled>Upload</button>
         </div>
+        <div class="card m-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Upload History</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">File Name</th>
+                            <th scope="col">Upload Date (YYYY_MM_DD)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body"></tbody>
+                </table>
+            </div>
+        </div>
     </div>
     <div class="overlay d-none" id="loading-overlay">
         <div class="overlay__inner">

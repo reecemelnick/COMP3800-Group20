@@ -1,0 +1,4 @@
+PATIENT CODE,LOCATION,BIRTHDATE,HEALTH HABITS,LIFESTYLE,GENDER ASSIGNED AT BIRTH,DIET,SOCIO- ECONOMIC STATUS,RECALL FREQUENCY,HEALTH CONCERNS,TREATMENT PREFERENCE,REFERRAL SOURCE
+122180,Vancouver,11-Sep-92,Exercise,HEALTHY,Female,Vegan,Low,3 Months,None,Biologic,Staff
+72116,North Vancouver,25-Oct-80,Healthy Diet,UNHEALTHY,Male,Vegetarian,Medium,6 Months,Heart,None Biologic,Promotion
+113419,North Vancouver,12-Sep-80,Healthy Diet,BUSY,Male,Vegetarian,Medium,6 Months,Heart,None Biologic,Promotion
