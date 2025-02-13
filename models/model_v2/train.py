@@ -3,29 +3,34 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.layers import Dropout
-from tensorflow.keras.models import save_model
-import joblib  # For saving encoders and scalers
+from tensorflow.keras.layers import Dense, Dropout
+import joblib
 
 data = pd.read_json('parsed_data.json')
 
-health_habits_encoder = LabelEncoder()
-data['HEALTH HABITS'] = health_habits_encoder.fit_transform(data['HEALTH HABITS'])
+data.fillna('unknown', inplace=True)
 
-gender_encoder = LabelEncoder()
-data['GENDER ASSIGNED AT BIRTH'] = gender_encoder.fit_transform(data['GENDER ASSIGNED AT BIRTH'])
+def add_unknown_to_encoder(data_column):
+    encoder = LabelEncoder()
+    data_column = pd.concat([data_column, pd.Series(['unknown'])], ignore_index=True)
+    encoder.fit(data_column)
 
-diet_encoder = LabelEncoder()
-data['DIET'] = diet_encoder.fit_transform(data['DIET'])
+    return encoder
 
-health_concern_encoder = LabelEncoder()
-data['HEALTH CONCERNS'] = health_concern_encoder.fit_transform(data['HEALTH CONCERNS'])
+health_habits_encoder = add_unknown_to_encoder(data['HEALTH HABITS'])
+data['HEALTH HABITS'] = health_habits_encoder.transform(data['HEALTH HABITS'])
 
-economic_encoder = LabelEncoder()
-data['SOCIO- ECONOMIC STATUS'] = economic_encoder.fit_transform(data['SOCIO- ECONOMIC STATUS'])
+gender_encoder = add_unknown_to_encoder(data['GENDER ASSIGNED AT BIRTH'])
+data['GENDER ASSIGNED AT BIRTH'] = gender_encoder.transform(data['GENDER ASSIGNED AT BIRTH'])
 
-######
+diet_encoder = add_unknown_to_encoder(data['DIET'])
+data['DIET'] = diet_encoder.transform(data['DIET'])
+
+health_concern_encoder = add_unknown_to_encoder(data['HEALTH CONCERNS'])
+data['HEALTH CONCERNS'] = health_concern_encoder.transform(data['HEALTH CONCERNS'])
+
+economic_encoder = add_unknown_to_encoder(data['SOCIO- ECONOMIC STATUS'])
+data['SOCIO- ECONOMIC STATUS'] = economic_encoder.transform(data['SOCIO- ECONOMIC STATUS'])
 
 label_encoder = LabelEncoder()
 data['TREATMENT PREFERENCE'] = label_encoder.fit_transform(data['TREATMENT PREFERENCE'])
@@ -33,16 +38,23 @@ data['TREATMENT PREFERENCE'] = label_encoder.fit_transform(data['TREATMENT PREFE
 X = data.drop('TREATMENT PREFERENCE', axis=1).values
 y = data['TREATMENT PREFERENCE'].values
 
+print(f"Label encoding for 'GENDER ASSIGNED AT BIRTH': {gender_encoder.classes_}")
+print(f"Label encoding for 'HEALTH HABITS': {health_habits_encoder.classes_}")
+print(f"Label encoding for 'DIET': {diet_encoder.classes_}")
+print(f"Label encoding for 'HEALTH CONCERNS': {health_concern_encoder.classes_}")
+print(f"Label encoding for 'SOCIO- ECONOMIC STATUS': {economic_encoder.classes_}")
+print(f"Label encoding for 'TREATMENT PREFERENCE': {label_encoder.classes_}")
+
 scaler = StandardScaler()
 X = scaler.fit_transform(X)
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 model = Sequential([
-    Dense(4, activation='relu', input_shape=(X_train.shape[1],)),
-    Dropout(0.4), 
-    Dense(2, activation='relu'),
-    Dropout(0.4),
+    Dense(8, activation='relu', input_shape=(X_train.shape[1],)),
+    Dropout(0.2),
+    Dense(4, activation='relu'),
+    Dropout(0.2),
     Dense(1, activation='sigmoid')
 ])
 
@@ -61,4 +73,3 @@ joblib.dump(scaler, "scaler.pkl")
 
 loss, accuracy = model.evaluate(X_test, y_test)
 print(f"Test Accuracy: {accuracy:.2f}")
-

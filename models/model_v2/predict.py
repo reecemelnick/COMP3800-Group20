@@ -14,23 +14,44 @@ health_habits_encoder = joblib.load("health_habits_encoder.pkl")
 label_encoder = joblib.load("label_encoder.pkl")
 scaler = joblib.load("scaler.pkl")
 
-gender = "Female"
-diet = "Carnivore"
-health_concern = "Heart"
-economic_status = "Low"
-health_habits = "Exercise"
+input_dict = {"gender": "Male",
+            "diet": "Vegan",
+            "health_concern": "Respiratory",
+            "economic_status": "High",
+            "health_habits": "Stress management"}
 
-gender_encoded = gender_encoder.transform([gender])[0]
-diet_encoded = diet_encoder.transform([diet])[0]
-health_concern_encoded = health_concern_encoder.transform([health_concern])[0]
-economic_encoded = economic_encoder.transform([economic_status])[0]
-health_habits_encoded = health_habits_encoder.transform([health_habits])[0]
+for key in list(input_dict.keys()):
+    if input_dict[key] == "":
+        input_dict.pop(key)
 
-input_data = np.array([[gender_encoded, 
-                        health_habits_encoded, 
-                        diet_encoded,
-                        health_concern_encoded,
-                        economic_encoded]])
+input_data = np.array([[]])
+
+if "gender" in input_dict:
+    gender = input_dict["gender"]
+    gender_encoded = gender_encoder.transform([gender])[0]
+    input_data = np.append(input_data, np.array([[gender_encoded]]), axis=1) 
+
+if "diet" in input_dict:
+    diet = input_dict["diet"]
+    diet_encoded = diet_encoder.transform([diet])[0]
+    input_data = np.append(input_data, np.array([[diet_encoded]]), axis=1) 
+
+if "health_concern" in input_dict:
+    health_concern = input_dict["health_concern"]
+    health_concern_encoded = health_concern_encoder.transform([health_concern])[0]
+    input_data = np.append(input_data, np.array([[health_concern_encoded]]), axis=1)
+
+if "economic_status" in input_dict:
+    economic_status = input_dict["economic_status"]
+    economic_encoded = economic_encoder.transform([economic_status])[0]
+    input_data = np.append(input_data, np.array([[economic_encoded]]), axis=1)
+
+if "health_habits" in input_dict:
+    health_habits = input_dict["health_habits"]
+    health_habits_encoded = health_habits_encoder.transform([health_habits])[0]
+    input_data = np.append(input_data, np.array([[health_habits_encoded]]), axis=1)
+
+
 input_data = scaler.transform(input_data)
 
 probabilities = model.predict(input_data)
