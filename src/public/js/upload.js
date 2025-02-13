@@ -95,7 +95,7 @@ function toggleSubmit(bool) {
         }
 
     } catch (error) {
-        alert('Failed to reach server: ' + error.message)
+        alert('History Retrieval failed to reach server: ' + error.message)
     }
 
     if (data) {
