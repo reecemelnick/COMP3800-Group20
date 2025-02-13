@@ -14,11 +14,11 @@ formData = json.loads(sys.argv[1])
 # print(f"{formData}")
 # print(f"Form Data: {formData["health_habits"]}")
 
-# location = formData["location"]
-# health_habits = formData["health_habits"]
+location = formData["location"]
+health_habits = formData["health_habits"]
 
-location = "Vancouver"
-health_habits = "Exercise"
+# location = "Vancouver"
+# health_habits = "Exercise"
 
 location_encoded = location_encoder.transform([location])[0]
 health_habits_encoded = health_habits_encoder.transform([health_habits])[0]

@@ -42,9 +42,7 @@ function isValidBirthdate(birthYear, birthMonth, birthDay) {
 }
 
 calculateBtn.addEventListener('click', (e) => {
-    const probability = 75;
-
-    document.getElementById('probabilityValue').innerText = probability;
+    document.getElementById('probabilityValue').textContent = "Loading...";
 
 });
 
@@ -123,13 +121,7 @@ form.addEventListener('submit', async (event) => {
         } else {
             const result = await res.json();
             // TODO: extract and print fields to page
-            // let parsedData = JSON.parse(data);
-            // const jsonData = JSON.parse(data);
-            console.log(result.data);
-            console.log(result.data.predicted_class);
-            console.log(result.data.non_predicted_class);
-            // console.log(parsedData)
-            // console.log(typeof (parsedData));
+            document.getElementById("probabilityValue").textContent = 100 * result.data.probability_for_non_predicted_class;
         }
     } catch (err) {
         console.error(err.message);

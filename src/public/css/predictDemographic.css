@@ -4,11 +4,14 @@
     margin: 1em;
 }
 
-#demographicProbability {
-    padding: 1em;
-}
-
 .dropdown-menu {
     max-height: 200px;
     overflow-y: scroll;
+}
+
+#form-submit, #demographicProbability {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 18pt;
 }
