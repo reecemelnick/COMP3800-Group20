@@ -82,6 +82,7 @@ function setupDropdownEventListeners() {
 function cleanDropdownText(text) {
     text = text.trim().replace(/\n/g, '');
     if (text === 'N/A' || text == 'Select') {
+        // TODO: should become "unknown"
         text = "";
     }
     return text;
@@ -120,9 +121,15 @@ form.addEventListener('submit', async (event) => {
         if (!res.ok) {
             console.log(`Response status: ${res.status}`);
         } else {
-            const data = await res.json();
+            const result = await res.json();
             // TODO: extract and print fields to page
-            console.log(JSON.parse(data));
+            // let parsedData = JSON.parse(data);
+            // const jsonData = JSON.parse(data);
+            console.log(result.data);
+            console.log(result.data.predicted_class);
+            console.log(result.data.non_predicted_class);
+            // console.log(parsedData)
+            // console.log(typeof (parsedData));
         }
     } catch (err) {
         console.error(err.message);

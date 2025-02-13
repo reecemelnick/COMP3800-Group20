@@ -36,10 +36,18 @@ app.post('/predictdemographic/calculate', express.json(), (req, res) => {
             res.status(500).send(err);
         } else {
             try {
-                const parsedResult = JSON.stringify(result)
-                res.json(parsedResult)
+                const parsedResult = JSON.parse(result)
+                console.log("result type:" + typeof result)
+                console.log(result)
+                console.log("parsed res type: " + typeof parsedResult)
+                console.log(parsedResult)
+                res.json({ data: parsedResult });
+                // res.json({
+                //     data: result
+                // })
             } catch (err) {
-                alert(`Error: ` + err)
+                // alert(`Error: ` + err)
+                console.log("Error: " + err);
             }
         }
     })
