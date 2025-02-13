@@ -121,7 +121,8 @@ form.addEventListener('submit', async (event) => {
             console.log(`Response status: ${res.status}`);
         } else {
             const data = await res.json();
-            console.log(data);
+            // TODO: extract and print fields to page
+            console.log(JSON.parse(data));
         }
     } catch (err) {
         console.error(err.message);

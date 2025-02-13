@@ -1,7 +1,7 @@
 import json
 
-input_file = 'canada.json' 
-output_file = 'parsed_data.json'
+input_file = '../data/canada.json' 
+output_file = '../scripts/parsed_data.json'
 
 with open(input_file, 'r') as file:
     data = json.load(file)

@@ -1,4 +1,6 @@
 const { spawn } = require('child_process')
+// const path = require('path');
+// const parentDir = path.join(__dirname, '..', '..'); // Go up two directories
 
 /*
     Runs a python script.

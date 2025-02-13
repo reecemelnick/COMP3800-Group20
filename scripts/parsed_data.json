@@ -1,0 +1,5182 @@
+[
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "West Vancouver",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Coquitlam",
+        "HEALTH HABITS": "Mindfulness",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Vancouver",
+        "HEALTH HABITS": "Exercise",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "North Vancouver",
+        "HEALTH HABITS": "Healthy Diet",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "New Westminster",
+        "HEALTH HABITS": "Stress management",
+        "TREATMENT PREFERENCE": "Biologic"
+    },
+    {
+        "LOCATION": "Bowen Island",
+        "HEALTH HABITS": "Meal Planning",
+        "TREATMENT PREFERENCE": "None Biologic"
+    },
+    {
+        "LOCATION": "Burnaby",
+        "HEALTH HABITS": "Eating Well",
+        "TREATMENT PREFERENCE": "Biologic"
+    }
+]
