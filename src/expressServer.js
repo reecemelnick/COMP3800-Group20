@@ -54,6 +54,16 @@ app.get('/upload', (req, res) => {
     return res.sendFile(path.resolve(__dirname, 'public', 'html', 'upload.html'))
 })
 
+app.get('/download', (req, res) => {
+    const fileName = req.query.filename
+    const filePath = `raw_data/${fileName}`
+    res.download(filePath, req.query.display, (err) => {
+        if (err) {
+            res.status(404).send('File not found on server');
+        }
+    });
+})
+
 app.use('/upload', uploadRouter)
 
 app.get('*', (req, res) => {

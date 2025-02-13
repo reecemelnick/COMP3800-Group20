@@ -2,6 +2,7 @@ const fileDrop = document.getElementById('file-drop')
 const formFile = document.getElementById('formFile')
 const submit = document.getElementById('submit-btn')
 
+
 fileDrop.addEventListener('click', () => formFile.click())
 
 fileDrop.addEventListener('dragover', (e) => {
@@ -32,7 +33,7 @@ submit.addEventListener('click', async (e) => {
     formData.append('uploaded_file', formFile.file)
 
     try {
-        const response = await fetch('/upload-data', {
+        const response = await fetch('/upload', {
             method: 'POST',
             body: formData, // Send the form data containing the file
         })
@@ -78,3 +79,41 @@ function validateFile(files) {
 function toggleSubmit(bool) {
     submit.disabled = bool
 }
+
+(async function () {
+    const tableBody = document.getElementById('table-body')
+    let data = null
+    try {
+        const response = await fetch('/upload/index', {
+            method: 'GET',
+        })
+
+        if (response.status === 200) {
+            data = await response.json()
+        } else {
+            alert(`Error fetching upload history: ${response.status}`)
+        }
+
+    } catch (error) {
+        alert('History Retrieval failed to reach server: ' + error.message)
+    }
+
+    if (data) {
+        data.data.forEach(elem => {
+            const historyEntry = document.createElement('tr')
+            const fileName = document.createElement('td')
+            const uploadTime = document.createElement('td')
+            const hyperlink = document.createElement('a')
+
+            hyperlink.textContent = elem.filenameoriginal;
+            hyperlink.setAttribute('href', `download?filename=${elem.filename}&display=${elem.filenameoriginal}`)
+
+            const date = new Date(elem.createdat)
+            uploadTime.textContent = date.toISOString().replace('T', ' ').split('.')[0];
+
+            fileName.appendChild(hyperlink)
+            historyEntry.append(fileName, uploadTime)
+            tableBody.appendChild(historyEntry)
+        })
+    }
+})()
