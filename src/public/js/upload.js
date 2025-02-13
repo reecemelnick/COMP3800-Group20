@@ -33,7 +33,7 @@ submit.addEventListener('click', async (e) => {
     formData.append('uploaded_file', formFile.file)
 
     try {
-        const response = await fetch('/upload-data', {
+        const response = await fetch('/upload', {
             method: 'POST',
             body: formData, // Send the form data containing the file
         })
@@ -103,11 +103,15 @@ function toggleSubmit(bool) {
             const historyEntry = document.createElement('tr')
             const fileName = document.createElement('td')
             const uploadTime = document.createElement('td')
+            const hyperlink = document.createElement('a')
 
-            fileName.textContent = elem.filenameoriginal
+            hyperlink.textContent = elem.filenameoriginal;
+            hyperlink.setAttribute('href', `download?filename=${elem.filename}&display=${elem.filenameoriginal}`)
+
             const date = new Date(elem.createdat)
             uploadTime.textContent = date.toISOString().replace('T', ' ').split('.')[0];
 
+            fileName.appendChild(hyperlink)
             historyEntry.append(fileName, uploadTime)
             tableBody.appendChild(historyEntry)
         })
