@@ -28,14 +28,19 @@ app.get('/predictdemographic', (req, res) => {
     return res.sendFile(path.resolve(__dirname, 'public', 'html', 'predictDemographic.html'))
 })
 
-// TODO: need to properly integrate reece's scripts
 app.post('/predictdemographic/calculate', express.json(), (req, res) => {
+    console.log(JSON.stringify(req.body))
     console.log(req.body)
-    runPy('src/services/test.py', [3], (err, result) => {
+    runPy('scripts/predict.py', [JSON.stringify(req.body)], (err, result) => {
         if (err) {
             res.status(500).send(err);
         } else {
-            res.send(JSON.stringify(result))
+            try {
+                const parsedResult = JSON.stringify(result)
+                res.json(parsedResult)
+            } catch (err) {
+                alert(`Error: ` + err)
+            }
         }
     })
 })

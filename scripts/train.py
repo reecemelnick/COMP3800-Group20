@@ -7,7 +7,7 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import save_model
 import joblib  # For saving encoders and scalers
 
-data = pd.read_json('parsed_data.json')
+data = pd.read_json('../scripts/parsed_data.json')
 
 location_encoder = LabelEncoder()
 data['LOCATION'] = location_encoder.fit_transform(data['LOCATION'])

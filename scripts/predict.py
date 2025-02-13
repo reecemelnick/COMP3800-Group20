@@ -3,13 +3,17 @@ from tensorflow.keras.models import load_model
 import joblib
 import sys
 import json
-
+import os
+print("Current working directory:", os.getcwd())
 # Load saved model and encoders
-model = load_model("treatment_preference_model.h5")
-location_encoder = joblib.load("location_encoder.pkl")
-health_habits_encoder = joblib.load("health_habits_encoder.pkl")
-label_encoder = joblib.load("label_encoder.pkl")
-scaler = joblib.load("scaler.pkl")
+model = load_model("src/treatment_preference_model.h5")
+location_encoder = joblib.load("src/location_encoder.pkl")
+health_habits_encoder = joblib.load("src/health_habits_encoder.pkl")
+label_encoder = joblib.load("src/label_encoder.pkl")
+scaler = joblib.load("src/scaler.pkl")
+
+# formData = json.loads(sys.argv[1])
+# print(f"Form Data: {formData}")
 
 location = "Vancouver"
 health_habits = "Exercise"
@@ -31,9 +35,13 @@ decoded_prediction = label_encoder.inverse_transform([predicted_class])[0]
 non_predicted_class = 1 - predicted_class
 decoded_non_predicted_class = label_encoder.inverse_transform([non_predicted_class])[0]
 
-print(f"Predicted Treatment Preference: {decoded_prediction} (Class {predicted_class})")
-print(f"Probability for {decoded_non_predicted_class}: {probability_class_0:.2f}")
-print(f"Probability for {decoded_prediction}: {probability_class_1:.2f}")
+# print(f"Predicted Treatment Preference: {decoded_prediction} (Class {predicted_class})")
+# print(f"Probability for {decoded_non_predicted_class}: {probability_class_0:.2f}")
+# print(f"Probability for {decoded_prediction}: {probability_class_1:.2f}")
+
+# converts to standard python float type
+probability_class_1 = float(probability_class_1) 
+probability_class_0 = float(probability_class_0)
 
 result = {
     "predicted_class": decoded_prediction,
@@ -41,3 +49,7 @@ result = {
     "probability_for_non_predicted_class": round(probability_class_0, 2),
     "non_predicted_class": decoded_non_predicted_class
 }
+
+print("Content-Type: application/json") 
+print()
+print(json.dumps(result))
