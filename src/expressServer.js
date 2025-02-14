@@ -29,7 +29,7 @@ app.get('/predictdemographic', (req, res) => {
 })
 
 app.post('/predictdemographic/calculate', express.json(), (req, res) => {
-    runPy('scripts/predict.py', [JSON.stringify(req.body)], (err, result) => {
+    runPy('models/model_v2/predict.py', [JSON.stringify(req.body)], (err, result) => {
         if (err) {
             res.status(500).send(err);
         } else {

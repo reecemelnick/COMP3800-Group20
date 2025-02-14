@@ -5,20 +5,29 @@ import sys
 import json
 
 # Load saved model and encoders
-model = load_model("treatment_preference_model.h5")
-gender_encoder = joblib.load("gender_encoder.pkl")
-diet_encoder = joblib.load("diet_encoder.pkl")
-health_concern_encoder = joblib.load("health_concern_encoder.pkl")
-economic_encoder = joblib.load("economic_encoder.pkl")
-health_habits_encoder = joblib.load("health_habits_encoder.pkl")
-label_encoder = joblib.load("label_encoder.pkl")
-scaler = joblib.load("scaler.pkl")
+model = load_model("models/model_v2/treatment_preference_model.h5")
+gender_encoder = joblib.load("models/model_v2/gender_encoder.pkl")
+diet_encoder = joblib.load("models/model_v2/diet_encoder.pkl")
+health_concern_encoder = joblib.load("models/model_v2/health_concern_encoder.pkl")
+economic_encoder = joblib.load("models/model_v2/economic_encoder.pkl")
+health_habits_encoder = joblib.load("models/model_v2/health_habits_encoder.pkl")
+label_encoder = joblib.load("models/model_v2/label_encoder.pkl")
+scaler = joblib.load("models/model_v2/scaler.pkl")
 
-input_dict = {"gender": "Male",
-            "diet": "Vegan",
-            "health_concern": "Respiratory",
-            "economic_status": "High",
-            "health_habits": "Stress management"}
+formData = json.loads(sys.argv[1])
+# health_habits = formData["health_habits"]
+# print(formData)
+# input_dict = {"gender": "Male",
+#             "diet": "Vegan",
+#             "health_concern": "Respiratory",
+#             "economic_status": "High",
+#             "health_habits": "Stress management"}
+
+input_dict = {"gender": formData["gender"],
+            "diet": formData["diet"],
+            "health_concern": formData["health_concern"],
+            "economic_status": formData["economic_status"],
+            "health_habits": formData["health_habits"] }
 
 for key in list(input_dict.keys()):
     if input_dict[key] == "":
@@ -65,9 +74,13 @@ decoded_prediction = label_encoder.inverse_transform([predicted_class])[0]
 non_predicted_class = 1 - predicted_class
 decoded_non_predicted_class = label_encoder.inverse_transform([non_predicted_class])[0]
 
-print(f"Predicted Treatment Preference: {decoded_prediction} (Class {predicted_class})")
-print(f"Probability for {decoded_non_predicted_class}: {probability_class_0:.2f}")
-print(f"Probability for {decoded_prediction}: {probability_class_1:.2f}")
+# print(f"Predicted Treatment Preference: {decoded_prediction} (Class {predicted_class})")
+# print(f"Probability for {decoded_non_predicted_class}: {probability_class_0:.2f}")
+# print(f"Probability for {decoded_prediction}: {probability_class_1:.2f}")
+
+# converts to standard python float type
+probability_class_1 = float(probability_class_1) 
+probability_class_0 = float(probability_class_0)
 
 result = {
     "predicted_class": decoded_prediction,
@@ -75,3 +88,5 @@ result = {
     "probability_for_non_predicted_class": round(probability_class_0, 2),
     "non_predicted_class": decoded_non_predicted_class
 }
+
+print(json.dumps(result), end="")
