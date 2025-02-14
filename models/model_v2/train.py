@@ -6,6 +6,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 import joblib
 
+
 data = pd.read_json('parsed_data.json')
 
 data.fillna('unknown', inplace=True)
