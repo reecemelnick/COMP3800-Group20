@@ -81,7 +81,7 @@ function cleanDropdownText(text) {
     text = text.trim().replace(/\n/g, '');
     if (text === 'N/A' || text == 'Select') {
         // TODO: should become "unknown"
-        text = "";
+        text = "unknown";
     }
     return text;
 }
@@ -98,14 +98,25 @@ function getSelectedRadio(buttons) {
 
 form.addEventListener('submit', async (event) => {
     event.preventDefault();
-    // const selected_sex_button = getSelectedRadio(sex_buttons);
-    const location = cleanDropdownText(document.getElementById('dropdown-location').textContent);
-    const healthHabits = cleanDropdownText(document.getElementById('dropdown-healthhabits').textContent);
 
+    const gender = getSelectedRadio(document.querySelectorAll('#form-field-sex input[type="radio"]')).value;
+    const diet = cleanDropdownText(document.getElementById('dropdown-diet').textContent);
+    const health_concern = cleanDropdownText(document.getElementById('dropdown-healthconcerns').textContent);
+    const economic_status = cleanDropdownText(document.getElementById('dropdown-socioeconomicstatus').textContent);
+    const health_habits = cleanDropdownText(document.getElementById('dropdown-healthhabits').textContent);
+
+    // For model v1
+    // const formData = {
+    //     // sex: sex,
+    //     location: location,
+    //     health_habits: healthHabits
+    // };
     const formData = {
-        // sex: sex,
-        location: location,
-        health_habits: healthHabits
+        gender: gender,
+        diet: diet,
+        health_concern: health_concern,
+        economic_status: economic_status,
+        health_habits: health_habits
     };
 
     try {
@@ -120,7 +131,6 @@ form.addEventListener('submit', async (event) => {
             console.log(`Response status: ${res.status}`);
         } else {
             const result = await res.json();
-            // TODO: extract and print fields to page
             document.getElementById("probabilityValue").textContent = 100 * result.data.probability_for_non_predicted_class;
         }
     } catch (err) {
