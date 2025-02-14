@@ -12,7 +12,7 @@ curl -fsSL https://pyenv.run | bash
 ### Python
 
 # Install
-pyenv install 3.13.0
+pyenv install 3.12.0
 
 # Create virtual env
 python3 -m venv venv
@@ -45,6 +45,17 @@ install docker desktop via package manager
 
 ## Setup Database
 docker compose up -d
+
+## docker cmd
+# find container id
+docker ps
+
+# cp
+docker cp {source} {target}
+docker cp dump.sql containerId:/
+
+# export / import database
+Go into docker and use terminal and run cmd in export.sh / import.sh
 
 ## Run
 cd src
