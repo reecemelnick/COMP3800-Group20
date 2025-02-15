@@ -3,7 +3,7 @@ WITH transformed AS (
         index AS old_index,
         patientcode::INT AS patientcode,
         location AS location,
-        date_of_birth::DATE AS date_of_birth,
+        date_of_birth::DATE AT TIME ZONE 'Asia/Dubai' AT TIME ZONE 'UTC' AS date_of_birth,
         health_habits AS health_habits,
         lifestyle AS lifestyle,
         CASE 
@@ -20,14 +20,14 @@ WITH transformed AS (
             ELSE NULL
         END AS recall_frequency,
         health_concerns AS health_concerns,
-        NULLIF(date_of_last_visit, '')::TIMESTAMP AS date_of_last_visit,
+        NULLIF(date_of_last_visit, '')::TIMESTAMP AT TIME ZONE 'Asia/Dubai' AT TIME ZONE 'UTC' AS date_of_last_visit,  -- Convert to UTC
         referral_source2 AS referral_source2,
         hobbies AS hobbies,
         how_long_have_they_been_in_uae AS how_long_have_they_been_in_uae,
         occupation AS occupation,
         preferred_method_of_comms AS preferred_method_of_comms,
-        NOW() AS createdAt,
-        NOW() AS updatedAt
+        NOW() AT TIME ZONE 'UTC' AS createdAt,
+        NOW() AT TIME ZONE 'UTC' AS updatedAt
     FROM public.dubai
 )
 INSERT INTO public.dubai_clean (
