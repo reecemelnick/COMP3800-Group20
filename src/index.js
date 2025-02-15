@@ -8,7 +8,7 @@ const launch = async () => {
         await Promise.all([
             client.connect(),
         ])
-        console.log('MongoDB connect successful.')
+        console.log('Database connect successful.')
 
         await migration()
         console.log('Migration successful.')
