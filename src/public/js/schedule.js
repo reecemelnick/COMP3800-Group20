@@ -66,7 +66,7 @@ function updateChart(chart, data) {
 
     // Set the values of each bar
     chart.data.labels = labels;
-    chart.data.datasets[0].data = data.map((element) => element.count);
+    chart.data.datasets[0].data = data.map((element) => element.total);
 
     //Current month-year as a string
     const currentMonthYear = new Date().toLocaleString('default', { month: 'long', year: 'numeric' });
