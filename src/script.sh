@@ -1,8 +1,7 @@
-psql -d test -U admin -c "\
-COPY (SELECT row_to_json(t) FROM canada AS t) TO STDOUT;" > canada.json
+#!/bin/bash
 
+rm dubai_clean.json
+echo "[" > dubai_clean.json
 psql -d test -U admin -c "\
-COPY (SELECT row_to_json(t) FROM dubai AS t) TO STDOUT;" > dubai.json
-
-psql -d test -U admin -c "\
-COPY (SELECT row_to_json(t) FROM dubai_clean AS t) TO STDOUT;" > dubai_clean.json
+COPY (SELECT row_to_json(t) FROM dubai_clean AS t) TO STDOUT;" | sed '$!s/$/,/' >> dubai_clean.json
+echo "]" >> dubai_clean.json

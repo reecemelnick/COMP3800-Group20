@@ -30,7 +30,7 @@ WITH transformed AS (
         NOW() AT TIME ZONE 'UTC' AS createdAt,
         NOW() AT TIME ZONE 'UTC' AS updatedAt
     FROM public.dubai a
-    LEFT JOIN product ON a.patientcode = product.patientcode
+    RIGHT JOIN product ON a.patientcode = product.patientcode
 )
 INSERT INTO public.dubai_clean (
     patientcode, location, date_of_birth, health_habits, lifestyle, 
