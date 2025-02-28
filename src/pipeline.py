@@ -5,26 +5,15 @@ from sqlalchemy import create_engine, text
 
 
 class Pipeline:
-    def __init__(self):
+    def __init__(self, columns, f_name, table_name, max_lengths):
         self.url = "postgresql+psycopg://admin:123456@localhost/test"
-        self.expected_columns = [
-            "PatientCode",
-            "Location",
-            "Date Of Birth",
-            "Health Habits",
-            "Lifestyle",
-            "Gender Assigned At Birth",
-            "Diet",
-            "Socioeconomic Status",
-            "Recall Frequency",
-            "Health Concerns",
-            "Date of Last visit",
-            "Referral Source2",
-            "Hobbies",
-            "How long have they been in UAE",
-            "Occupation",
-            "Preferred Method of Comms",
-        ]
+        self.expected_columns = columns
+        self.f_name = f_name
+        self.table_name = table_name.lower()
+        self.create_sql = Path.joinpath(Path("sql/ddl").resolve(), f'create{table_name.capitalize()}CleanTable.sql')
+        self.drop_sql = Path.joinpath(Path("sql/ddl").resolve(), f'drop{table_name.capitalize()}.sql')
+        self.insert_sql = ""
+        self.max_lengths = max_lengths
         self.connect()
 
     def connect(self):
@@ -32,20 +21,21 @@ class Pipeline:
 
     def createTable(self):
         with self.sync_engine.connect() as connection:
-            with open("../sql/ddl/createDubaiCleanTable.sql", "r") as file:
+            with open(self.create_sql, "r") as file:
                 connection.execute(text(file.read()))
 
     def cleanup(self):
         with self.sync_engine.connect() as connection:
-            with open("../sql/ddl/dropTables.sql", "r") as file:
+            with open(self.drop_sql, "r") as file:
                 connection.execute(text(file.read()))
 
-    def extra(self, f_name):
-        file_type = Path(f_name).suffix
+    def extract(self):
+        file_type = Path(self.f_name).suffix
         if file_type == ".csv":
-            self.df = pd.read_csv(f_name, usecols=self.expected_columns)
+            self.df = pd.read_csv(self.f_name, usecols=self.expected_columns)
+            # self.df = pd.read_csv(self.f_name)
         elif file_type == ".xlsx":
-            self.df = pd.read_excel(f_name)
+            self.df = pd.read_excel(self.f_name)
         else:
             print("Not supported file type!")
 
@@ -53,20 +43,7 @@ class Pipeline:
         self.df = self.df.dropna(axis=1, how="all")
         self.df.columns = self.df.columns.str.replace(r"[^a-zA-Z0-9_]", "_", regex=True).str.lower()
 
-        max_lengths = {
-            'location': 20,
-            'health_habits': 20,
-            'lifestyle': 10,
-            'diet': 15,
-            'socioeconomic_status': 10,
-            'health_concerns': 20,
-            'referral_source2': 20,
-            'how_long_have_they_been_in_uae': 50,
-            'occupation': 100,
-            'preferred_method_of_comms': 15,
-        }
-
-        for column, max_len in max_lengths.items():
+        for column, max_len in self.max_lengths.items():
             # Check if any value in the column exceeds the max length
             exceeded = self.df[column].apply(lambda x: len(str(x)) > max_len)
             if exceeded.any():
@@ -74,19 +51,17 @@ class Pipeline:
                 print(self.df[column][exceeded])
         # print(self.df.head())
 
-    def load(self, table_name):
-        self.df.to_sql(name=table_name, con=self.sync_engine, if_exists="replace")
+    def load(self):
+        self.df.to_sql(name=self.table_name, con=self.sync_engine, if_exists="replace")
 
     def process_data(self):
-        with self.sync_engine.connect() as connection:
-            with open("../sql/dml/insertDubai.sql", "r") as file:
-                connection.execute(text(file.read()))
+        pass
 
-    def run(self, f_name, table_name):
+    def run(self):
         try:
-            self.extra(f_name)
+            self.extract()
             self.transform()
-            self.load(table_name)
+            self.load()
         except Exception as e:
             print(e)
             exit(1)
@@ -98,7 +73,7 @@ class Pipeline:
         for f_name in dir_path.iterdir():
             print(f_name)
             try:
-                self.extra(f_name)
+                self.extract(f_name)
                 self.transform()
                 self.load(Path(f_name).stem)
                 print("-" * 50)  # Separator between files
@@ -106,11 +81,23 @@ class Pipeline:
                 print(e)
 
 
-if __name__ == "__main__":
-    pipeline = Pipeline()
-    pipeline.cleanup()
-    pipeline.createTable()
-    # pipeline.run_dir("../raw_data")
-    # pipeline.run("../data/canada.csv", "canada")
-    pipeline.run("../raw_data/dubai.csv", "dubai")
-    pipeline.process_data()
+class Dubai_pipeline(Pipeline):
+    def __init__(self, columns, f_name, table_name, max_lengths, join):
+        super().__init__(columns, f_name, table_name, max_lengths)
+
+        self.insert_sql = Path.joinpath(Path("sql/dml").resolve(), f'insert{table_name.capitalize()}.sql')
+
+    def process_data(self):
+        with self.sync_engine.connect() as connection:
+            with open(self.insert_sql, "r") as file:
+                connection.execute(text(file.read()))
+
+
+class Blind_pipeline(Pipeline):
+    def __init__(self, columns, f_name, table_name, max_lengths):
+        super().__init__(columns, f_name, table_name, max_lengths)
+
+
+class Product_pipeline(Pipeline):
+    def __init__(self, columns, f_name, table_name, max_lengths):
+        super().__init__(columns, f_name, table_name, max_lengths)
