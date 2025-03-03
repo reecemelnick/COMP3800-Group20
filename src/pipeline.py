@@ -32,7 +32,7 @@ class Pipeline:
 
     def createTable(self):
         with self.sync_engine.connect() as connection:
-            with open("../sql/ddl/createDubaiTable.sql", "r") as file:
+            with open("../sql/ddl/createDubaiCleanTable.sql", "r") as file:
                 connection.execute(text(file.read()))
 
     def cleanup(self):

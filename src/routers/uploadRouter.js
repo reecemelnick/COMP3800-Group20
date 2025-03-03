@@ -34,7 +34,7 @@ const upload = multer({
     limits: { fileSize: 5 * 1024 * 1024 },
 })
 
-router.get('/', uploadController.uploadGET)
+router.get('/index', uploadController.uploadGET)
 
 router.post('/', upload.single('uploaded_file'), uploadController.uploadPOST)
 
