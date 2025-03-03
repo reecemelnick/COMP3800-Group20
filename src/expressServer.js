@@ -51,6 +51,9 @@ app.get('*', (req, res) => {
 })
 
 app.use((error, req, res, next) => {
+    if (error.code === 'LIMIT_UNEXPECTED_FILE') {
+        error.code = 400
+    }
     error.code ? console.error(error.message) : console.error(error)
     return res.status(error.code || 500).json({ msg: error.message })
 })
