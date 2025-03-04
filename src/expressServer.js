@@ -66,6 +66,16 @@ app.get('/download', (req, res) => {
 
 app.use('/upload', uploadRouter)
 
+app.get('/xray', (req, res) => {
+    return res.sendFile(path.resolve(__dirname, 'public', 'html', 'xray.html'))
+})
+
+app.use('/xray', (req, res) => {
+    res.json({
+        message: 'File uploaded successfully!'
+    })
+})
+
 app.get('*', (req, res) => {
     return res.status(404).json({ error: 'Page does not exist!' })
 })
