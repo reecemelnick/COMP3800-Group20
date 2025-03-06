@@ -3,6 +3,9 @@ const path = require('node:path')
 const compression = require('compression')
 const { uploadRouter } = require('./routers')
 const { client } = require('./util')
+const { runPy } = require('./util')
+const multer = require('multer')
+const axios = require('axios')
 
 const app = express()
 const server = require('http').createServer(app)
@@ -69,6 +72,44 @@ app.get('/upload', (req, res) => {
 })
 
 app.use('/upload', uploadRouter)
+
+app.get('/xray', (req, res) => {
+    return res.sendFile(path.resolve(__dirname, 'public', 'html', 'xray.html'))
+})
+
+app.post('/xray', multer({ storage: multer.memoryStorage() }).single('uploaded_file'), (req, res) => {
+
+    if (!req.file) {
+        return res.status(400).json({ error: 'No image attached' })
+    }
+
+    const base64Image = req.file.buffer.toString('base64')
+
+    axios({
+        method: 'POST',
+        url: 'https://outline.roboflow.com/panoramic-x-rays-dqq7b/2',
+        params: {
+            api_key: `${process.env.ROBOFLOW_KEY}`,
+        },
+        data: base64Image,
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+    })
+        .then(function (response) {
+            const { image, predictions } = response.data
+            res.json({
+                data: { image, predictions },
+            })
+        })
+        .catch(function (error) {
+            if (error.status === 400) {
+                res.status(400).json({ error: `${error.response.data.message}` })
+            } else {
+                res.status(500).json({ error: 'Internal server error' })
+            }
+        })
+})
 
 app.get('*', (req, res) => {
     return res.status(404).json({ error: 'Page does not exist!' })
