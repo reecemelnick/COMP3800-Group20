@@ -1,15 +1,14 @@
 import pandas as pd
 import numpy as np
+import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
-import joblib
-from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_squared_error, r2_score
-from tensorflow.keras.optimizers import Adam
 
 # Neural-network model
+# USE THIS MODEL FOR BUYERS
 
 data = pd.read_json('./models/model_buyers_v1/parsed_data.json')
 
@@ -70,14 +69,6 @@ y_scaler = StandardScaler()
 y_train_scaled = y_scaler.fit_transform(y_train.reshape(-1, 1))
 y_test_scaled = y_scaler.transform(y_test.reshape(-1, 1))
 
-# ridge_model = Ridge(alpha=1.0)
-# ridge_model.fit(x_train_scaled, y_train)
-
-# y_pred = ridge_model.predict(x_test_scaled)
-
-# mse = mean_squared_error(y_test, y_pred)
-# r2 = r2_score(y_test, y_pred)
-
 model = Sequential([
     Dense(5, activation='relu', input_shape=(5,)),
     Dropout(0.2),
@@ -98,9 +89,6 @@ joblib.dump(health_concern_encoder, "./models/model_buyers_v1/saved/health_conce
 joblib.dump(economic_encoder, "./models/model_buyers_v1/saved/economic_encoder.pkl")
 joblib.dump(target_label_encoder, "./models/model_buyers_v1/saved/target_label_encoder.pkl")
 joblib.dump(scaler, "./models/model_buyers_v1/saved/scaler.pkl")
-
-# print(f'Mean Squared Error: {mse}')
-# print(f'R^2 Score: {r2}')
 
 loss, accuracy = model.evaluate(x_test, y_test)
 
