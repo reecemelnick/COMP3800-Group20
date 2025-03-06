@@ -1,0 +1,25 @@
+.form-group {
+    border: 2px solid lightgray;
+    padding: 1em;
+    margin: 1em;
+}
+
+.dropdown-menu {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+#form-submit, #demographicProbability {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: 18pt;
+}
+
+.form-check.form-switch {
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 0;
+}
