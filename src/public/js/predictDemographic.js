@@ -2,6 +2,16 @@ const form = document.getElementById('predict-form');
 const birthdate = document.getElementById('birthdate');
 const calculateBtn = document.getElementById('form-calculate');
 const sex_buttons = document.querySelectorAll("#form-field-sex .form-check input");
+const toggle_form_btn = document.getElementById('flexSwitchCheckDefault');
+const toggle_form_label = document.getElementById('switch-label');
+
+toggle_form_btn.addEventListener('change', () => {
+    if (toggle_form_btn.checked) {
+        toggle_form_label.textContent = 'Biological Demographic Probability'
+    } else {
+        toggle_form_label.textContent = 'Buyer Probability'
+    }
+})
 
 birthdate.addEventListener('change', (e) => {
     const birthdateVal = e.target.value;
@@ -105,22 +115,36 @@ form.addEventListener('submit', async (event) => {
     const economic_status = cleanDropdownText(document.getElementById('dropdown-socioeconomicstatus').textContent);
     const health_habits = cleanDropdownText(document.getElementById('dropdown-healthhabits').textContent);
 
+    let formData;
+
     // For model v1
     // const formData = {
     //     // sex: sex,
     //     location: location,
     //     health_habits: healthHabits
     // };
-    const formData = {
-        gender: gender,
-        diet: diet,
-        health_concern: health_concern,
-        economic_status: economic_status,
-        health_habits: health_habits
-    };
+    if (toggle_form_btn.checked) {
+        // biological demographic data
+        formData = {
+            gender: gender,
+            diet: diet,
+            health_concern: health_concern,
+            economic_status: economic_status,
+            health_habits: health_habits
+        };
+    } else {
+        // buyer potential data
+        formData = {
+            gender: gender,
+            diet: diet,
+            health_concern: health_concern,
+            economic_status: economic_status,
+            health_habits: health_habits
+        };
+    }
 
     try {
-        const res = await fetch('/predictdemographic/calculate', {
+        const res = await fetch('/predict/calculate', {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
