@@ -7,7 +7,7 @@ from tensorflow.keras.layers import Dense, Dropout
 import joblib
 
 
-data = pd.read_json('parsed_data.json')
+data = pd.read_json('./models/model_v2/parsed_data.json')
 
 data.fillna('unknown', inplace=True)
 
@@ -48,7 +48,8 @@ print(f"Label encoding for 'TREATMENT PREFERENCE': {label_encoder.classes_}")
 
 scaler = StandardScaler()
 X = scaler.fit_transform(X)
-
+print(f"X values: {X}")
+print(f"Y values: {y}")
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 model = Sequential([
