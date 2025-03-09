@@ -141,10 +141,20 @@ form.addEventListener('submit', async (event) => {
 
         if (!res.ok) {
             console.log(`Response status: ${res.status}`);
-        } else {
-            const result = await res.json();
-            document.getElementById("probabilityValue").textContent = 100 * result.data.probability_for_non_predicted_class;
+            return;
         }
+
+        const result = await res.json();
+        if (toggle_form_btn.checked) {
+            document.getElementById("probabilityValue").textContent = `${result.data.non_predicted_class}: ${100 * result.data.probability_for_non_predicted_class.toFixed(2)}%`;
+        } else {
+            let probabilities = "";
+            for ([key, value] of Object.entries(result.data.class_probabilities)) {
+                probabilities += `${key}: ${(value * 100).toFixed(2)}%<br>`;
+            }
+            document.getElementById("probabilityValue").innerHTML = probabilities;
+        }
+
     } catch (err) {
         console.error(err.message);
     }

@@ -14,16 +14,7 @@ health_habits_encoder = joblib.load("models/model_buyers_v1/saved/health_habits_
 label_encoder = joblib.load("models/model_buyers_v1/saved/target_label_encoder.pkl")
 scaler = joblib.load("models/model_buyers_v1/saved/scaler.pkl")
 
-# print(sys.argv[1])
-# formData = json.loads(sys.argv[1])
-# print(formData)
-formData = {
-    "gender": "Female",
-    "diet": "unknown",
-    "health_concern": "unknown",
-    "economic_status": "unknown",
-    "health_habits": "unknown"
-}
+formData = json.loads(sys.argv[1])
 
 input_dict = {"gender": formData["gender"],
             "diet": formData["diet"],
@@ -88,8 +79,8 @@ sorted_value_index = np.argsort(-np.array(class_values)) # - sorts the array in 
 sorted_probabilities = {class_labels[i]: class_values[i] for i in sorted_value_index}
 
 # Print results
-print(f"Predicted Class: {decoded_prediction}") # highest probability
-print(f"Class Probabilities: {json.dumps(sorted_probabilities, indent=2)}")
+# print(f"Predicted Class: {decoded_prediction}") # highest probability
+# print(f"Class Probabilities: {json.dumps(sorted_probabilities, indent=2)}")
 
 # Prepare final result JSON
 result = {
