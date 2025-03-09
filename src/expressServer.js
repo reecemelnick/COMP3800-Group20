@@ -49,7 +49,6 @@ app.post('/predict/buyer', express.json(), (req, res) => {
             res.status(500).send(err);
         } else {
             try {
-                console.log("Result from running script: " + result);
                 const parsedResult = JSON.parse(result)
                 res.json({ data: parsedResult });
             } catch (err) {
