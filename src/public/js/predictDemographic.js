@@ -2,6 +2,16 @@ const form = document.getElementById('predict-form');
 const birthdate = document.getElementById('birthdate');
 const calculateBtn = document.getElementById('form-calculate');
 const sex_buttons = document.querySelectorAll("#form-field-sex .form-check input");
+const toggle_form_btn = document.getElementById('flexSwitchCheckDefault');
+const toggle_form_label = document.getElementById('switch-label');
+
+toggle_form_btn.addEventListener('change', () => {
+    if (toggle_form_btn.checked) {
+        toggle_form_label.textContent = 'Biological Preference Probability'
+    } else {
+        toggle_form_label.textContent = 'Buyer Probability'
+    }
+})
 
 birthdate.addEventListener('change', (e) => {
     const birthdateVal = e.target.value;
@@ -80,7 +90,6 @@ function setupDropdownEventListeners() {
 function cleanDropdownText(text) {
     text = text.trim().replace(/\n/g, '');
     if (text === 'N/A' || text == 'Select') {
-        // TODO: should become "unknown"
         text = "unknown";
     }
     return text;
@@ -120,19 +129,34 @@ form.addEventListener('submit', async (event) => {
     };
 
     try {
-        const res = await fetch('/predictdemographic/calculate', {
+        let endpoint = toggle_form_btn.checked ? '/predict/treatment-preference' : '/predict/buyer';
+
+        const res = await fetch(endpoint, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(formData)
         });
+
         if (!res.ok) {
             console.log(`Response status: ${res.status}`);
-        } else {
-            const result = await res.json();
-            document.getElementById("probabilityValue").textContent = 100 * result.data.probability_for_non_predicted_class;
+            return;
         }
+
+        const result = await res.json();
+        if (toggle_form_btn.checked) {
+            document.getElementById("probabilityValue").innerHTML =
+                `${result.data.non_predicted_class}: ${100 * result.data.probability_for_non_predicted_class.toFixed(2)}%<br>` +
+                `${result.data.predicted_class}: ${100 * result.data.probability_for_predicted_class.toFixed(2)}%`;
+        } else {
+            let probabilities = "";
+            for ([key, value] of Object.entries(result.data.class_probabilities)) {
+                probabilities += `${key}: ${(value * 100).toFixed(2)}%<br>`;
+            }
+            document.getElementById("probabilityValue").innerHTML = probabilities;
+        }
+
     } catch (err) {
         console.error(err.message);
     }

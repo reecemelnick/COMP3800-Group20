@@ -18,6 +18,7 @@
         <div class="row form-group">
             <div class="col-md">
                 <h3>Demographic Information</h3>
+                <hr>
                 <fieldset class="" id="form-group-demographic-info">
 
                     <div class="row" id="form-field-sex">
@@ -120,6 +121,7 @@
         <div class="row form-group">
             <div class="col-sm">
                 <h3>Lifestyle & Health</h3>
+                <hr>
                 <fieldset id="form-group-lifestyle-health">
                     <div class="row" id="form-field-lifestyle">
                         <h5>Lifestyle</h5>
@@ -282,14 +284,19 @@
             </div>
         </div>
         <div class="row form-group justify-content-between">
-            <div class="col-md-auto">
+            <div class="d-flex justify-content-between my-3">
+                <div class="form-check form-switch d-flex justify-content-end  my-3">
+                    <label class="form-check-label ms-2" for="flexSwitchCheckDefault" id="switch-label">Buyer Probability</label>
+                    <input class="form-check-input ms-2" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                </div>
                 <div id="form-submit" class="align-items-center">
                     <button type="submit" class="btn btn-primary" id="form-calculate">CALCULATE</button>
                 </div>
             </div>
-            <div class="col-md-auto">
+            <hr>
+            <div class="col-md-auto d-flex justify-content-center align-items-center"> <!-- Added flexbox centering here -->
                 <div id="demographicProbability">
-                    <div id="probabilityValue"></div>%
+                    <div id="probabilityValue"></div>
                 </div>
             </div>
         </div>

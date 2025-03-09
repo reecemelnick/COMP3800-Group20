@@ -26,12 +26,27 @@ app.get('/schedule', (req, res) => {
     return res.sendFile(path.resolve(__dirname, 'public', 'html', 'schedule.html'))
 })
 
-app.get('/predictdemographic', (req, res) => {
+app.get('/predict', (req, res) => {
     return res.sendFile(path.resolve(__dirname, 'public', 'html', 'predictDemographic.html'))
 })
 
-app.post('/predictdemographic/calculate', express.json(), (req, res) => {
+app.post('/predict/treatment-preference', express.json(), (req, res) => {
     runPy('models/model_v2/predict.py', [JSON.stringify(req.body)], (err, result) => {
+        if (err) {
+            res.status(500).send(err);
+        } else {
+            try {
+                const parsedResult = JSON.parse(result)
+                res.json({ data: parsedResult });
+            } catch (err) {
+                console.log("Error: " + err);
+            }
+        }
+    })
+})
+
+app.post('/predict/buyer', express.json(), (req, res) => {
+    runPy('models/model_buyers_v1/predict.py', [JSON.stringify(req.body)], (err, result) => {
         if (err) {
             res.status(500).send(err);
         } else {

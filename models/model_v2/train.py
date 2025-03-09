@@ -8,8 +8,7 @@ import joblib
 import matplotlib.pyplot as plt
 
 
-# parse json data into a pandas data frame (2D tabular data structure)
-data = pd.read_json('parsed_data.json')
+data = pd.read_json('./models/model_v2/parsed_data.json')
 
 # fill missing values in the dataset with 'unknown' to maintain consistency
 data.fillna('unknown', inplace=True)

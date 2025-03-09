@@ -15,3 +15,11 @@
     align-items: center;
     font-size: 18pt;
 }
+
+.form-check.form-switch {
+    display: flex;
+    justify-content: end;
+    flex-direction: row-reverse;
+    margin: 0;
+    padding: 0;
+}
