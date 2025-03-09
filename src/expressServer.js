@@ -28,23 +28,35 @@ app.get('/predict', (req, res) => {
     return res.sendFile(path.resolve(__dirname, 'public', 'html', 'predictDemographic.html'))
 })
 
-app.post('/predict/calculate', express.json(), (req, res) => {
-    if (!req.body.purchased_product) {
-        runPy('models/model_v2/predict.py', [JSON.stringify(req.body)], (err, result) => {
-            if (err) {
-                res.status(500).send(err);
-            } else {
-                try {
-                    const parsedResult = JSON.parse(result)
-                    res.json({ data: parsedResult });
-                } catch (err) {
-                    console.log("Error: " + err);
-                }
+app.post('/predict/treatment-preference', express.json(), (req, res) => {
+    runPy('models/model_v2/predict.py', [JSON.stringify(req.body)], (err, result) => {
+        if (err) {
+            res.status(500).send(err);
+        } else {
+            try {
+                const parsedResult = JSON.parse(result)
+                res.json({ data: parsedResult });
+            } catch (err) {
+                console.log("Error: " + err);
             }
-        })
-    } else {
+        }
+    })
+})
 
-    }
+app.post('/predict/buyer', express.json(), (req, res) => {
+    runPy('models/model_buyers_v1/predict.py', [JSON.stringify(req.body)], (err, result) => {
+        if (err) {
+            res.status(500).send(err);
+        } else {
+            try {
+                console.log("Result from running script: " + result);
+                const parsedResult = JSON.parse(result)
+                res.json({ data: parsedResult });
+            } catch (err) {
+                console.log("Error: " + err);
+            }
+        }
+    })
 })
 
 app.get('/getschedule', async (req, res) => {
