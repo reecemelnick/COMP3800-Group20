@@ -7,7 +7,7 @@ const toggle_form_label = document.getElementById('switch-label');
 
 toggle_form_btn.addEventListener('change', () => {
     if (toggle_form_btn.checked) {
-        toggle_form_label.textContent = 'Biological Demographic Probability'
+        toggle_form_label.textContent = 'Biological Preference Probability'
     } else {
         toggle_form_label.textContent = 'Buyer Probability'
     }
@@ -90,7 +90,6 @@ function setupDropdownEventListeners() {
 function cleanDropdownText(text) {
     text = text.trim().replace(/\n/g, '');
     if (text === 'N/A' || text == 'Select') {
-        // TODO: should become "unknown"
         text = "unknown";
     }
     return text;
@@ -115,42 +114,31 @@ form.addEventListener('submit', async (event) => {
     const economic_status = cleanDropdownText(document.getElementById('dropdown-socioeconomicstatus').textContent);
     const health_habits = cleanDropdownText(document.getElementById('dropdown-healthhabits').textContent);
 
-    let formData;
-
     // For model v1
     // const formData = {
     //     // sex: sex,
     //     location: location,
     //     health_habits: healthHabits
     // };
-    if (toggle_form_btn.checked) {
-        // biological demographic data
-        formData = {
-            gender: gender,
-            diet: diet,
-            health_concern: health_concern,
-            economic_status: economic_status,
-            health_habits: health_habits
-        };
-    } else {
-        // buyer potential data
-        formData = {
-            gender: gender,
-            diet: diet,
-            health_concern: health_concern,
-            economic_status: economic_status,
-            health_habits: health_habits
-        };
-    }
+    const formData = {
+        gender: gender,
+        diet: diet,
+        health_concern: health_concern,
+        economic_status: economic_status,
+        health_habits: health_habits
+    };
 
     try {
-        const res = await fetch('/predict/calculate', {
+        let endpoint = toggle_form_btn.checked ? '/predict/treatment-preference' : '/predict/buyer';
+
+        const res = await fetch(endpoint, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(formData)
         });
+
         if (!res.ok) {
             console.log(`Response status: ${res.status}`);
         } else {
