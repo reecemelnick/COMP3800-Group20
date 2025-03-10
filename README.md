@@ -58,5 +58,4 @@ docker cp dump.sql containerId:/
 Go into docker and use terminal and run cmd in export.sh / import.sh
 
 ## Run
-cd src
 python3 pipeline.py

@@ -16,6 +16,7 @@ CREATE TABLE IF NOT EXISTS public.dubai_clean (
     how_long_have_they_been_in_uae VARCHAR(50),
     occupation VARCHAR(100),
     preferred_method_of_comms VARCHAR(15),
+    purchased_product VARCHAR(20),
     createdAt TIMESTAMP,
     updatedAt TIMESTAMP
 );
