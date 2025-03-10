@@ -146,7 +146,9 @@ form.addEventListener('submit', async (event) => {
 
         const result = await res.json();
         if (toggle_form_btn.checked) {
-            document.getElementById("probabilityValue").textContent = `${result.data.non_predicted_class}: ${100 * result.data.probability_for_non_predicted_class.toFixed(2)}%`;
+            document.getElementById("probabilityValue").innerHTML =
+                `${result.data.non_predicted_class}: ${100 * result.data.probability_for_non_predicted_class.toFixed(2)}%<br>` +
+                `${result.data.predicted_class}: ${100 * result.data.probability_for_predicted_class.toFixed(2)}%`;
         } else {
             let probabilities = "";
             for ([key, value] of Object.entries(result.data.class_probabilities)) {

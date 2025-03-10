@@ -1,0 +1,119 @@
+const fileDrop = document.getElementById('file-drop')
+const formFile = document.getElementById('formFile')
+const submit = document.getElementById('submit-btn')
+
+
+fileDrop.addEventListener('click', () => formFile.click())
+
+fileDrop.addEventListener('dragover', (e) => {
+    e.preventDefault()
+    fileDrop.classList.add('bg-light')
+})
+
+fileDrop.addEventListener('dragleave', () => {
+    fileDrop.classList.remove('bg-light')
+})
+
+fileDrop.addEventListener('drop', (e) => {
+    e.preventDefault()
+    validateFile(e.dataTransfer.files)
+})
+
+formFile.addEventListener('change', (e) => {
+    if (e.target.files.length !== 0 && !validateFile(e.target.files)) {
+        e.target.value = ''
+    }
+})
+
+submit.addEventListener('click', async (e) => {
+    const loadOverlay = document.getElementById('loading-overlay')
+    loadOverlay.classList.toggle('d-none')
+
+    const formData = new FormData()
+    formData.append('uploaded_file', formFile.file)
+
+    try {
+        const response = await fetch('/upload', {
+            method: 'POST',
+            body: formData, // Send the form data containing the file
+        })
+
+        if (!response.ok) {
+            alert(`Upload error: ${response.status}`)
+        }
+        const result = await response.json()
+        alert('Data uploaded to database')
+    } catch (error) {
+        alert('Failed to reach server: ' + error.message)
+    }
+    loadOverlay.classList.toggle('d-none')
+})
+
+function updatefileDropText() {
+    fileDrop.textContent =
+        formFile.file
+            ? formFile.file.name
+            : 'Drag and drop a file here or click to select'
+}
+
+function validateFile(files) {
+    fileDrop.classList.remove('bg-light')
+
+    if (files.length !== 1) {
+        alert('Please drop exactly one file.')
+        return false
+    }
+    const fileName = files[0].name
+    const fileExtension = fileName.split('.').pop().toLowerCase()
+
+    if (!fileExtension.includes('csv')) {
+        alert('Please attach .csv files only.')
+        return false
+    }
+    formFile.file = files[0]
+    updatefileDropText()
+    toggleSubmit(false)
+    return true
+}
+
+function toggleSubmit(bool) {
+    submit.disabled = bool
+}
+
+(async function () {
+    const tableBody = document.getElementById('table-body')
+    let data = null
+    try {
+        const response = await fetch('/upload/index', {
+            method: 'GET',
+        })
+
+        if (response.status === 200) {
+            data = await response.json()
+        } else {
+            alert(`Error fetching upload history: ${response.status}`)
+        }
+
+    } catch (error) {
+        alert('History Retrieval failed to reach server: ' + error.message)
+    }
+
+    if (data) {
+        data.data.forEach(elem => {
+            const historyEntry = document.createElement('tr')
+            const fileName = document.createElement('td')
+            const uploadTime = document.createElement('td')
+            const hyperlink = document.createElement('a')
+
+            hyperlink.textContent = elem.filenameoriginal;
+            hyperlink.setAttribute('href', `download?filename=${elem.filename}&display=${elem.filenameoriginal}`)
+
+            const date = new Date(elem.createdat)
+            uploadTime.textContent = date.toISOString().replace('T', ' ').split('.')[0];
+
+            fileName.appendChild(hyperlink)
+            historyEntry.append(fileName, uploadTime)
+            tableBody.appendChild(historyEntry)
+        })
+    }
+})()
