@@ -2,6 +2,7 @@ require('dotenv').config({ path: `${__dirname}/.env.${process.env.NODE_ENV}` })
 const { server, app, path } = require('./expressServer')
 const fsPromises = require('node:fs/promises')
 const { client } = require('./util')
+const { run_pipeline } = require('./services/uploadService')
 
 const launch = async () => {
     try {
@@ -10,6 +11,7 @@ const launch = async () => {
         ])
         console.log('Database connect successful.')
 
+        await run_pipeline()
         await migration()
         console.log('Migration successful.')
 
