@@ -90,14 +90,14 @@ if __name__ == "__main__":
             'purchased_product': 20,
         },
     )
-    dubai_pipeline.cleanup()
+    # dubai_pipeline.cleanup()
     dubai_pipeline.createTable()
     dubai_pipeline.run()
 
-    blind_pipeline.cleanup()
+    # blind_pipeline.cleanup()
     blind_pipeline.run()
 
-    product_pipeline.cleanup()
+    # product_pipeline.cleanup()
     product_pipeline.run()
 
     dubai_pipeline.process_data()

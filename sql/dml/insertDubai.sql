@@ -45,4 +45,5 @@ SELECT
     health_concerns, date_of_last_visit, referral_source2, hobbies, 
     how_long_have_they_been_in_uae, occupation, preferred_method_of_comms, 
     purchased_product, createdAt, updatedAt
-FROM transformed;
+FROM transformed
+ON CONFLICT (patientcode) DO NOTHING;
