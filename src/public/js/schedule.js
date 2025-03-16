@@ -1,9 +1,32 @@
 (async function () {
+    const barSelector = document.getElementById('bar-selector')
+    const lineSelector = document.getElementById('line-selector')
 
-    const chart = new Chart(
+    let chart = configChart('bar')
+    let data = (await getSchedule()).data
+    data = filterData(data)
+    updateChart(chart, data)
+
+    barSelector.addEventListener('click', (e) => {
+        focusSelector(barSelector, lineSelector)
+        chart.destroy()
+        chart = configChart('bar')
+        updateChart(chart, data)
+    })
+
+    lineSelector.addEventListener('click', (e) => {
+        focusSelector(lineSelector, barSelector)
+        chart.destroy()
+        chart = configChart('line')
+        updateChart(chart, data)
+    })
+})()
+
+function configChart(chartType) {
+    return new Chart(
         document.getElementById('chart'),
         {
-            type: 'bar',
+            type: chartType,
             data: {
                 // labels: Object.keys(mock),
                 datasets: [
@@ -26,17 +49,13 @@
                             display: true,
                             text: 'Anticipated number of patients',
                         },
+                        min: 0,
                     },
                 },
             },
         },
     )
-    let data = (await getSchedule()).data
-    data = filterData(data)
-    console.log(data)
-    updateChart(chart, data)
-})()
-
+}
 
 async function getSchedule() {
     try {
@@ -60,34 +79,34 @@ async function getSchedule() {
 function updateChart(chart, data) {
     // Set the labels in Month-Year strings
     const labels = data.map((element) => {
-        const dateStr = new Date(element.month).toLocaleDateString("en-US", { month: "long", year: "numeric" });
-        return dateStr;
-    });
+        const dateStr = new Date(element.month).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
+        return dateStr
+    })
 
     // Set the values of each bar
-    chart.data.labels = labels;
-    chart.data.datasets[0].data = data.map((element) => element.total);
+    chart.data.labels = labels
+    chart.data.datasets[0].data = data.map((element) => element.total)
 
     //Current month-year as a string
-    const currentMonthYear = new Date().toLocaleString('default', { month: 'long', year: 'numeric' });
-
-    // Update the backgroundColor, indicate which bar is current month-year
-    chart.data.datasets[0].backgroundColor = chart.data.datasets[0].data.map((value, index) => {
-        return labels[index] === currentMonthYear ? 'rgba(255, 99, 132, 1)' : 'rgba(54, 162, 235, 0.5)';
-    });
+    const currentMonthYear = new Date().toLocaleString('default', { month: 'long', year: 'numeric' })
 
     //Refresh chart
-    chart.update();
+    chart.update()
 }
 
 /*This function may not be needed in the future if backend is able to provide data that is only relevant from this month onwards */
 function filterData(data) {
     return data.filter(element => {
-        const currentDate = new Date();
-        const currentYear = currentDate.getFullYear();
-        const currentMonth = currentDate.getMonth();
-        const elementDate = new Date(element.month);
+        const currentDate = new Date()
+        const currentYear = currentDate.getFullYear()
+        const currentMonth = currentDate.getMonth()
+        const elementDate = new Date(element.month)
         return (elementDate.getFullYear() > currentYear) ||
-            (elementDate.getFullYear() === currentYear && elementDate.getMonth() >= currentMonth);
+            (elementDate.getFullYear() === currentYear && elementDate.getMonth() >= currentMonth)
     })
+}
+
+function focusSelector(selectedElement, deselectedElement) {
+    selectedElement.classList = 'btn btn-primary'
+    deselectedElement.classList = 'btn btn-secondary'
 }
