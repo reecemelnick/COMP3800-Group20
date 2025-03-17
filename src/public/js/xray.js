@@ -1,6 +1,7 @@
 const fileDrop = document.getElementById('file-drop')
 const xrayFile = document.getElementById('xrayFile')
 const submit = document.getElementById('submit-btn')
+const xrayAnnotated = document.getElementById('xray-annotated')
 
 fileDrop.addEventListener('click', () => xrayFile.click())
 
@@ -73,9 +74,28 @@ function validateFile(files) {
     xrayFile.file = files[0]
     updatefileDropText()
     toggleSubmit(false)
+    setImage(files[0]);
     return true
 }
 
 function toggleSubmit(bool) {
     submit.disabled = bool
+}
+
+/*
+*   Displays image submitted to user
+*/
+function setImage(img) {
+    const reader = new FileReader()
+
+    // Check if image file passed in exists
+    if (img) {
+        // When reader is done reading the file
+        reader.onload = function (e) {
+            xrayAnnotated.setAttribute('src', e.target.result)
+        }
+
+        // Reads file as base64 encoded string
+        reader.readAsDataURL(img)
+    }
 }

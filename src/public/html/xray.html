@@ -14,7 +14,7 @@
 <body>
     <div id="nav-placeholder"></div>
     <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
-        <div class="d-flex flex-column">
+        <div class="d-flex flex-column m-2">
             <div class="mb-3">
                 <label for="xrayFile" class="form-label">Upload your xray image</label>
                 <div id="file-drop" class="border border-primary rounded p-4 text-center" style="user-select: none;">
@@ -23,6 +23,8 @@
                 <input type="file" id="xrayFile" name="file" class="d-none" accept=".jpg, .png" />
             </div>
             <button type="button" id='submit-btn' class="btn btn-lg btn-primary" disabled>Upload</button>
+            <br/>
+            <img src="" id="xray-annotated" alt="X-Ray Image">
         </div>
     </div>
     <div class="overlay d-none" id="loading-overlay">
