@@ -30,10 +30,25 @@ app.get('/predict', (req, res) => {
     return res.sendFile(path.resolve(__dirname, 'public', 'html', 'predictDemographic.html'))
 })
 
+app.post('/predict/dropdowns', express.json(), (req, res) => {
+    runPy('scripts/getUniqueValues.py', [JSON.stringify(req.body)], (err, result) => {
+        if (err) {
+            res.status(res.statusCode).send(err)
+        } else {
+            try {
+                const parsedResult = JSON.parse(result)
+                res.json({ data: parsedResult })
+            } catch (err) {
+                console.log('Error: ' + err)
+            }
+        }
+    })
+})
+
 app.post('/predict/treatment-preference', express.json(), (req, res) => {
     runPy('models/model_v2/predict.py', [JSON.stringify(req.body)], (err, result) => {
         if (err) {
-            res.status(500).send(err)
+            res.status(res.statusCode).send(err)
         } else {
             try {
                 const parsedResult = JSON.parse(result)
@@ -48,7 +63,7 @@ app.post('/predict/treatment-preference', express.json(), (req, res) => {
 app.post('/predict/buyer', express.json(), (req, res) => {
     runPy('models/model_buyers_v1/predict.py', [JSON.stringify(req.body)], (err, result) => {
         if (err) {
-            res.status(500).send(err)
+            res.status(res.statusCode).send(err)
         } else {
             try {
                 const parsedResult = JSON.parse(result)
