@@ -1,7 +1,7 @@
 const form = document.getElementById('predict-form');
 const birthdate = document.getElementById('birthdate');
 const calculateBtn = document.getElementById('form-calculate');
-const sex_buttons = document.querySelectorAll("#form-field-sex .form-check input");
+// const sex_buttons = document.querySelectorAll("#form-field-sex .form-check input");
 const toggle_form_btn = document.getElementById('flexSwitchCheckDefault');
 const toggle_form_label = document.getElementById('switch-label');
 
@@ -56,35 +56,52 @@ calculateBtn.addEventListener('click', (e) => {
 
 });
 
-function updateDropdownButtonText(dropdownButton, dropdownItems) {
-    dropdownItems.forEach(item => {
-        item.addEventListener('click', () => {
-            dropdownButton.textContent = item.textContent;
+async function initDropdown(dropdownBtn) {
+    data = { "key": dropdownBtn.value }
+    try {
+        const res = await fetch('/predict/dropdowns', {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
         });
-    });
+
+        if (!res.ok) {
+            console.log(`Response status: ${res.status}`);
+            return;
+        }
+        const result = await res.json();
+        populateDropdown(dropdownBtn, result)
+    } catch (err) {
+        console.error(err.message);
+    }
+
 }
 
-function setupDropdownEventListeners() {
-    updateDropdownButtonText(document.getElementById('dropdown-location'),
-        document.querySelectorAll('#form-field-location .dropdown-item'));
-    updateDropdownButtonText(document.getElementById('dropdown-socioeconomicstatus'),
-        document.querySelectorAll('#form-field-socioeconomicstatus .dropdown-item'));
-    updateDropdownButtonText(document.getElementById('dropdown-timeinlocation'),
-        document.querySelectorAll('#form-field-timeinlocation .dropdown-item'));
-    updateDropdownButtonText(document.getElementById('dropdown-lifestyle'),
-        document.querySelectorAll('#form-field-lifestyle .dropdown-item'));
-    updateDropdownButtonText(document.getElementById('dropdown-occupation'),
-        document.querySelectorAll('#form-field-occupation .dropdown-item'));
-    updateDropdownButtonText(document.getElementById('dropdown-diet'),
-        document.querySelectorAll('#form-field-diet .dropdown-item'));
-    updateDropdownButtonText(document.getElementById('dropdown-healthhabits'),
-        document.querySelectorAll('#form-field-healthhabits .dropdown-item'));
-    updateDropdownButtonText(document.getElementById('dropdown-healthconcerns'),
-        document.querySelectorAll('#form-field-healthconcerns .dropdown-item'));
-    updateDropdownButtonText(document.getElementById('dropdown-recallfrequency'),
-        document.querySelectorAll('#form-field-recallfrequency .dropdown-item'));
-    updateDropdownButtonText(document.getElementById('dropdown-referralsource'),
-        document.querySelectorAll('#form-field-referralsource .dropdown-item'));
+function setupDropdowns() {
+    initDropdown(document.getElementById('dropdown-socioeconomicstatus'));
+    initDropdown(document.getElementById('dropdown-diet'));
+    initDropdown(document.getElementById('dropdown-healthhabits'));
+    initDropdown(document.getElementById('dropdown-healthconcerns'));
+}
+
+function populateDropdown(dropdownBtn, jsonData) {
+    const dropdown_menu = document.getElementById(`dropdown-menu-${dropdownBtn.value}`)
+    data = jsonData.data[dropdownBtn.value]
+    data.forEach((field) => {
+        if (field) {
+            dropdown_menu.innerHTML += `
+                <li><a class="dropdown-item" >${field}</a></li>
+            `
+        }
+    })
+    const dropdowns = document.querySelectorAll(`#form-field-${dropdownBtn.value} .dropdown-item`)
+    dropdowns.forEach((item) => {
+        item.addEventListener('click', () => {
+            dropdownBtn.textContent = item.textContent
+        })
+    })
 }
 
 function cleanDropdownText(text) {
@@ -163,4 +180,4 @@ form.addEventListener('submit', async (event) => {
 
 });
 
-setupDropdownEventListeners();
+setupDropdowns();
