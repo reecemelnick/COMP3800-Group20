@@ -38,35 +38,6 @@
                         </div>
                     </div><br />
 
-                    <div class="row" id="form-field-location">
-                        <h5>Location</h5>
-                        <div class="col-md-auto">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" id="dropdown-location" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Select
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <!-- TODO: Hardcoded. Later will make db query to fetch all unique cities and inject as items -->
-                                    <li><a class="dropdown-item" >N/A</a></li>
-                                    <li><a class="dropdown-item" >Vancouver</a></li>
-                                    <li><a class="dropdown-item" >North Vancouver</a></li>
-                                    <li><a class="dropdown-item" >Bowen Island</a></li>
-                                    <li><a class="dropdown-item" >Burnaby</a></li>
-                                    <li><a class="dropdown-item" >West Vancouver</a></li>
-                                    <li><a class="dropdown-item" >Coquitlam</a></li>
-                                    <li><a class="dropdown-item" >New Westminster</a></li>
-                                    <!-- <li><a class="dropdown-item" >Dubai</a></li>
-                                    <li><a class="dropdown-item" >Sharjah</a></li>
-                                    <li><a class="dropdown-item" >Fujairah</a></li>
-                                    <li><a class="dropdown-item" >Ras Al Khaimah</a></li>
-                                    <li><a class="dropdown-item" >Abu Dhabi</a></li>
-                                    <li><a class="dropdown-item" >Dubai</a></li> -->
-                                </ul>
-                            </div>
-                        </div>
-                    </div><br />
-
                     <div class="row" id="form-field-birthdate">
                         <h5>Birthdate</h5>
                         <div class="col-3">
@@ -93,28 +64,6 @@
                         </div>
                     </div><br />
 
-                    <div class="row" id="form-field-timeinlocation">
-                        <h5>Time in Location</h5>
-                        <div class="col-md-auto">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" id="dropdown-timeinlocation" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Select
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" >N/A</a></li>
-                                    <li><a class="dropdown-item" >Less than 6 months</a></li>
-                                    <li><a class="dropdown-item" >6 months to a year</a></li>
-                                    <li><a class="dropdown-item" >1 to 2 years</a></li>
-                                    <li><a class="dropdown-item" >2 to 5 years</a></li>
-                                    <li><a class="dropdown-item" >5 to 10 years</a></li>
-                                    <li><a class="dropdown-item" >10 to 20 years</a></li>
-                                    <li><a class="dropdown-item" >20 to 30 years</a></li>
-                                    <li><a class="dropdown-item" >More than 30 years</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div><br />
                 </fieldset>
             </div>
         </div>
@@ -123,45 +72,6 @@
                 <h3>Lifestyle & Health</h3>
                 <hr>
                 <fieldset id="form-group-lifestyle-health">
-                    <div class="row" id="form-field-lifestyle">
-                        <h5>Lifestyle</h5>
-                        <div class="col-md-auto">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" id="dropdown-lifestyle" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Select
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" >N/A</a></li>
-                                    <li><a class="dropdown-item" >Healthy</a></li>
-                                    <li><a class="dropdown-item" >Unhealthy</a></li>
-                                    <li><a class="dropdown-item" >Busy</a></li>
-                                    <li><a class="dropdown-item" >Hectic</a></li>
-                                    <li><a class="dropdown-item" >Active</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div><br />
-
-                    <div class="row" id="form-field-occupation">
-                        <h5>Occupation</h5>
-                        <div class="col-md-auto">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" id="dropdown-occupation" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Select
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" >N/A</a></li>
-                                    <li><a class="dropdown-item" >Manager</a></li>
-                                    <li><a class="dropdown-item" >Nanny</a></li>
-                                    <li><a class="dropdown-item" >Model</a></li>
-                                    <li><a class="dropdown-item" >Actor</a></li>
-                                    <li><a class="dropdown-item" >Lawyer</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div><br />
 
                     <div class="row" id="form-field-diet">
                         <h5>Diet</h5>
@@ -228,61 +138,7 @@
                 </fieldset>
             </div>
         </div>
-        <div class="row form-group">
-            <div class="col-sm">
-                <h3>Booking</h3>
-                <fieldset id="form-group-booking">
-                    <div class="row" id="form-field-recallfrequency">
-                        <h5>Recall Frequency</h5>
-                        <div class="col-md-auto">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle"  id="dropdown-recallfrequency" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Select
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" >N/A</a></li>
-                                    <li><a class="dropdown-item" >3 Months</a></li>
-                                    <li><a class="dropdown-item" >6 Months</a></li>
-                                    <li><a class="dropdown-item" >Yearly</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div><br />
-                </fieldset>
-            </div>
-        </div>
-        <div class="row form-group">
-            <div class="col-sm">
-                <h3>Additional</h3>
-                <fieldset id="form-group-additional">
-                    <div class="row" id="form-field-referralsource">
-                        <h5>Referral Source</h5>
-                        <div class="col-md-auto">
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" id="dropdown-referralsource" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Select
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" >N/A</a></li>
-                                    <li><a class="dropdown-item" >External Referral</a></li>
-                                    <li><a class="dropdown-item" >Jumeirah</a></li>
-                                    <li><a class="dropdown-item" >DRA Staff</a></li>
-                                    <li><a class="dropdown-item" >Works in DIFC</a></li>
-                                    <li><a class="dropdown-item" >Friend</a></li>
-                                    <li><a class="dropdown-item" >Family</a></li>
-                                    <li><a class="dropdown-item" >Online</a></li>
-                                    <li><a class="dropdown-item" >Walk in</a></li>
-                                    <li><a class="dropdown-item" >Radio</a></li>
-                                    <li><a class="dropdown-item" >Hotel</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div><br />
-                </fieldset>
-            </div>
-        </div>
+        
         <div class="row form-group justify-content-between">
             <div class="d-flex justify-content-between my-3">
                 <div class="form-check form-switch d-flex justify-content-end  my-3">
