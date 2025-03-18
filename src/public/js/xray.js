@@ -47,6 +47,7 @@ submit.addEventListener('click', async (e) => {
         }
         const result = await response.json()
         // TODO: do something with result
+        populateDetectionTable(result)
         annotateImage(xrayFile.file, result)
     } catch (error) {
         alert('Failed to reach server: ' + error.message)
@@ -143,6 +144,25 @@ function setImage(img) {
     }
 }
 
+function populateDetectionTable(data) {
+    const predictions = data.data.predictions
+    const tbody = document.querySelector("#results-table tbody");
+
+    predictions.forEach((prediction) => {
+        const row = document.createElement("tr")
+
+        const classCell = document.createElement("td")
+        classCell.textContent = prediction.class
+        row.appendChild(classCell)
+
+        const confidenceCell = document.createElement("td")
+        confidenceCell.textContent = (prediction.confidence * 100).toFixed(2)
+        row.appendChild(confidenceCell)
+
+        tbody.appendChild(row)
+    })
+}
+
 function annotateImage(xrayFile, data) {
     console.log(data)
     if (data.data.predictions.length <= 0) {
@@ -152,12 +172,12 @@ function annotateImage(xrayFile, data) {
     // console.log("Image loaded:", xrayAnnotated.width, xrayAnnotated.height);
 
     // Set canvas dimensions to match the image
-    canvas.width = xrayAnnotated.width;
-    canvas.height = xrayAnnotated.height;
-    // console.log("Canvas dimensions:", canvas.width, canvas.height);
+    canvas.width = xrayAnnotated.offsetWidth;
+    canvas.height = xrayAnnotated.offsetHeight;
+    console.log("Canvas dimensions:", canvas.width, canvas.height);
 
     // Draw the image onto the canvas
-    ctx.drawImage(xrayAnnotated, 0, 0);
+    ctx.drawImage(xrayAnnotated, 0, 0, canvas.width, canvas.height);
 
     // Scale the predictions to match the canvas size
     const scaledPredictions = scaleMasks(data.data.predictions, data.data.image.width, data.data.image.height, canvas.width, canvas.height);
@@ -167,9 +187,9 @@ function annotateImage(xrayFile, data) {
     drawMasks(scaledPredictions);
 }
 
-function scaleMasks(predictions, originalWidth, originalHeight, scaledWidth, scaledHeight) {
-    const scaleX = scaledWidth / originalWidth;
-    const scaleY = scaledHeight / originalHeight;
+function scaleMasks(predictions, originalWidth, originalHeight, displayedWidth, displayedHeight) {
+    const scaleX = displayedWidth / originalWidth;
+    const scaleY = displayedHeight / originalHeight;
 
     return predictions.map((prediction) => ({
         ...prediction,
@@ -201,7 +221,7 @@ function drawMasks(predictions) {
         ctx.closePath();
 
         // Set the fill style (e.g., semi-transparent color)
-        ctx.fillStyle = "rgba(255, 0, 0, 0.3)"; // Red with 30% opacity
+        ctx.fillStyle = "rgba(255, 0, 0, 0.1)"; // Red with 30% opacity
 
         // Fill the polygon
         ctx.fill();
