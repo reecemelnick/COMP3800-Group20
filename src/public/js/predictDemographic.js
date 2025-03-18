@@ -89,13 +89,18 @@ function setupDropdowns() {
 function populateDropdown(dropdownBtn, jsonData) {
     const dropdown_menu = document.getElementById(`dropdown-menu-${dropdownBtn.value}`)
     data = jsonData.data[dropdownBtn.value]
-    console.log(data)
     data.forEach((field) => {
         if (field) {
             dropdown_menu.innerHTML += `
                 <li><a class="dropdown-item" >${field}</a></li>
             `
         }
+    })
+    const dropdowns = document.querySelectorAll(`#form-field-${dropdownBtn.value} .dropdown-item`)
+    dropdowns.forEach((item) => {
+        item.addEventListener('click', () => {
+            dropdownBtn.textContent = item.textContent
+        })
     })
 }
 
