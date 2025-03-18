@@ -6,6 +6,7 @@ const fileDrop = document.getElementById('file-drop')
 const xrayFile = document.getElementById('xrayFile')
 const submit = document.getElementById('submit-btn')
 const xrayAnnotated = document.getElementById('xray-annotated')
+const tbody = document.querySelector("#results-table tbody")
 
 fileDrop.addEventListener('click', () => xrayFile.click())
 
@@ -131,8 +132,9 @@ function setImage(img) {
 
     // Check if image file passed in exists
     if (img) {
+        tbody.innerHTML = ""
         xrayAnnotated.src = ""
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        ctx.clearRect(0, 0, canvas.width, canvas.height)
 
         // When reader is done reading the file
         reader.onload = function (e) {
@@ -146,7 +148,6 @@ function setImage(img) {
 
 function populateDetectionTable(data) {
     const predictions = data.data.predictions
-    const tbody = document.querySelector("#results-table tbody");
 
     predictions.forEach((prediction) => {
         const row = document.createElement("tr")
