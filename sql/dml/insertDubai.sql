@@ -26,11 +26,10 @@ WITH transformed AS (
         a.how_long_have_they_been_in_uae AS how_long_have_they_been_in_uae,
         a.occupation AS occupation,
         a.preferred_method_of_comms AS preferred_method_of_comms,
-        product.purchased_product,
+        a.purchased_product,
         NOW() AT TIME ZONE 'UTC' AS createdAt,
         NOW() AT TIME ZONE 'UTC' AS updatedAt
     FROM public.dubai a
-    RIGHT JOIN product ON a.patientcode = product.patientcode
 )
 INSERT INTO public.dubai_clean (
     patientcode, location, date_of_birth, health_habits, lifestyle, 
