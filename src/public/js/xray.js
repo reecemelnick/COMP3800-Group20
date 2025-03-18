@@ -167,7 +167,7 @@ function populateDetectionTable(data) {
 function annotateImage(xrayFile, data) {
     console.log(data)
     if (data.data.predictions.length <= 0) {
-        alert("No predictions received")
+        alert("Model did not identify any features of interest.")
         return
     }
     // console.log("Image loaded:", xrayAnnotated.width, xrayAnnotated.height);
