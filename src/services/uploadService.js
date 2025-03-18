@@ -1,9 +1,10 @@
 const { CustomError, client } = require('../util')
 const { spawn } = require('child_process')
+const fsPromises = require('node:fs/promises')
 
-const run_pipeline = () => {
+const run_pipeline = (filename) => {
     return new Promise((resolve, reject) => {
-        const pythonProcess = spawn('python3', ['src/pipeline_runner.py'])
+        const pythonProcess = spawn('python3', ['src/pipeline_runner.py', filename])
 
         pythonProcess.stdout.on('data', (data) => {
             console.log(`Output: ${data}`)
@@ -14,8 +15,12 @@ const run_pipeline = () => {
             reject(error)
         })
 
-        pythonProcess.on('close', (code) => {
+        pythonProcess.on('close', async (code) => {
             console.log(`Process exited with code ${code}`)
+            if (code === 1) {
+                await fsPromises.unlink(filename)
+                reject(new CustomError(400, 'Invalid format'))
+            }
             resolve(code)
         })
     })
@@ -53,10 +58,10 @@ const uploadPOST = async (req) => {
 
     const { filename, originalname } = req.file
 
+    await run_pipeline(`raw_data/${filename}`)
+
     const result = await insertHistory(filename, originalname)
     console.log('Inserted:', result.rows[0])
-
-    await run_pipeline()
 
     return true
 }

@@ -11,7 +11,7 @@ const launch = async () => {
         ])
         console.log('Database connect successful.')
 
-        await run_pipeline()
+        await run_pipeline('raw_data/product_data.csv')
         await migration()
         console.log('Migration successful.')
 
