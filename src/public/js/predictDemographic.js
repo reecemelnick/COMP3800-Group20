@@ -51,11 +51,6 @@ function isValidBirthdate(birthYear, birthMonth, birthDay) {
     return false;
 }
 
-calculateBtn.addEventListener('click', (e) => {
-    document.getElementById('probabilityValue').textContent = "Loading...";
-
-});
-
 async function initDropdown(dropdownBtn) {
     data = { "key": dropdownBtn.value }
     try {
@@ -125,6 +120,9 @@ function getSelectedRadio(buttons) {
 form.addEventListener('submit', async (event) => {
     event.preventDefault();
 
+    const loadOverlay = document.getElementById('loading-overlay')
+    loadOverlay.classList.toggle('d-none')
+
     const gender = getSelectedRadio(document.querySelectorAll('#form-field-sex input[type="radio"]')).value;
     const diet = cleanDropdownText(document.getElementById('dropdown-diet').textContent);
     const health_concern = cleanDropdownText(document.getElementById('dropdown-healthconcerns').textContent);
@@ -157,6 +155,7 @@ form.addEventListener('submit', async (event) => {
         });
 
         if (!res.ok) {
+            loadOverlay.classList.toggle('d-none')
             console.log(`Response status: ${res.status}`);
             return;
         }
@@ -178,6 +177,7 @@ form.addEventListener('submit', async (event) => {
         console.error(err.message);
     }
 
+    loadOverlay.classList.toggle('d-none')
 });
 
 setupDropdowns();
