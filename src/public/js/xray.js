@@ -6,7 +6,7 @@ const fileDrop = document.getElementById('file-drop')
 const xrayFile = document.getElementById('xrayFile')
 const submit = document.getElementById('submit-btn')
 const xrayAnnotated = document.getElementById('xray-annotated')
-const tbody = document.querySelector("#results-table tbody")
+const tbody = document.querySelector("#results-table tbody");
 
 fileDrop.addEventListener('click', () => xrayFile.click())
 
@@ -167,7 +167,7 @@ function populateDetectionTable(data) {
 function annotateImage(xrayFile, data) {
     console.log(data)
     if (data.data.predictions.length <= 0) {
-        alert("No predictions received")
+        alert("Model did not identify any features of interest.")
         return
     }
     // console.log("Image loaded:", xrayAnnotated.width, xrayAnnotated.height);
