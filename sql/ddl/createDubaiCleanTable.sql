@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS public.dubai_clean (
     index SERIAL PRIMARY KEY,
-    patientcode INT,
+    patientcode INT UNIQUE,
     location VARCHAR(20),
     date_of_birth DATE,
     health_habits VARCHAR(20),

@@ -82,7 +82,7 @@ class Pipeline:
 
 
 class Dubai_pipeline(Pipeline):
-    def __init__(self, columns, f_name, table_name, max_lengths, join):
+    def __init__(self, columns, f_name, table_name, max_lengths):
         super().__init__(columns, f_name, table_name, max_lengths)
 
         self.insert_sql = Path.joinpath(Path("sql/dml").resolve(), f'insert{table_name.capitalize()}.sql')
@@ -91,13 +91,3 @@ class Dubai_pipeline(Pipeline):
         with self.sync_engine.connect() as connection:
             with open(self.insert_sql, "r") as file:
                 connection.execute(text(file.read()))
-
-
-class Blind_pipeline(Pipeline):
-    def __init__(self, columns, f_name, table_name, max_lengths):
-        super().__init__(columns, f_name, table_name, max_lengths)
-
-
-class Product_pipeline(Pipeline):
-    def __init__(self, columns, f_name, table_name, max_lengths):
-        super().__init__(columns, f_name, table_name, max_lengths)
