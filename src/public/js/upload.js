@@ -105,11 +105,11 @@ function toggleSubmit(bool) {
             const uploadTime = document.createElement('td')
             const hyperlink = document.createElement('a')
 
-            hyperlink.textContent = elem.filenameoriginal;
+            hyperlink.textContent = elem.filenameoriginal
             hyperlink.setAttribute('href', `download?filename=${elem.filename}&display=${elem.filenameoriginal}`)
 
             const date = new Date(elem.createdat)
-            uploadTime.textContent = date.toISOString().replace('T', ' ').split('.')[0];
+            uploadTime.textContent = date.toISOString().replace('T', ' ').split('.')[0]
 
             fileName.appendChild(hyperlink)
             historyEntry.append(fileName, uploadTime)
