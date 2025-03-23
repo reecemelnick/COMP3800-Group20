@@ -38,15 +38,17 @@ submit.addEventListener('click', async (e) => {
             body: formData, // Send the form data containing the file
         })
 
-        if (!response.ok) {
-            alert(`Upload error: ${response.status}`)
-        }
         const result = await response.json()
-        alert('Data uploaded to database')
+        if (!response.ok) {
+            alert(`Upload error: Response Status ${response.status}, ${result.msg}`)
+        } else {
+            alert('Data uploaded to database')
+        }
     } catch (error) {
         alert('Failed to reach server: ' + error.message)
     }
     loadOverlay.classList.toggle('d-none')
+    window.location.reload()
 })
 
 function updatefileDropText() {
