@@ -17,9 +17,20 @@
         <div class="card m-3" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">CSV format requirements:</h5>
-                <p class="card-text">Some quick example text to that will explain what columns the csv file needs, and
-                    what kind of
-                    format the values of the columns the server expects.
+                <p class="card-text"> The formatting of the CSV file has strict requirements which <u>must</u>
+                     be followed for the data to be appended to the database.
+                </p>
+                <ul>
+                    <li>Columns names MUST match those in the example CSV file</li>
+                    <li>All columns in the example CSV file must be present</li>
+                    <li>Date Of Birth must be in the format MM/DD/YYYY</li>
+                    <li>Gender Assigned At Birth must be either Male OR Female</li>
+                    <li>Recall Frequency must be in the format "x Months" (space matters) or "Yearly"</li>
+                    <li>Date of Last visit must be in the format "MM/DD/YYYY HH:MM" (hour must be in 24-hour format)</li>
+                </ul>
+                <p>Please refer to the createDubaiCleanTable.sql file or documentation to see the character limits for certain fields</p>
+                <p>
+                    You can download an example CSV file <a href="download?filename=example.csv&display=example.csv">here</a>
                 </p>
             </div>
         </div>
