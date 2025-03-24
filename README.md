@@ -26,15 +26,6 @@ pip3 install -r requirements-dev.txt
 # Deactivate
 deactivate
 
-## set PYTHONPATH
-export PYTHONPATH="${PYTHONPATH}:/path/to/your/lambda/"
-
-## unittest
-python -m unittest tests/src/* -v
-
-## formatter
-autopep8 --in-place -r src/
-
 # disable __pycache__
 export PYTHONDONTWRITEBYTECODE=1
 
@@ -45,6 +36,9 @@ install docker desktop via package manager
 
 ## Setup Database
 docker compose up -d
+
+## Teardown
+docker compose down -v
 
 ## docker cmd
 # find container id
@@ -57,5 +51,16 @@ docker cp dump.sql containerId:/
 # export / import database
 Go into docker and use terminal and run cmd in export.sh / import.sh
 
+# Install node
+install nvm or node 22 directly
+
+# install lib
+npm ci
+
+# create env
+cp env.example /src/.env.local
+
+fill in values
+
 ## Run
-python3 pipeline.py
+npm run local
