@@ -97,7 +97,7 @@ app.post('/xray', multer({ storage: multer.memoryStorage() }).single('uploaded_f
 
     axios({
         method: 'POST',
-        url: 'https://outline.roboflow.com/panoramic-x-rays-dqq7b/2',
+        url: 'https://outline.roboflow.com/reduce_classes_test-do-not-insert-new-data-here/4',
         params: {
             api_key: `${process.env.ROBOFLOW_KEY}`,
         },
