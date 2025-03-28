@@ -25,12 +25,14 @@ fileDrop.addEventListener('drop', (e) => {
 })
 
 xrayFile.addEventListener('change', (e) => {
+    submit.setAttribute("disabled", false);
     if (e.target.files.length !== 0 && !validateFile(e.target.files)) {
         e.target.value = ''
     }
 })
 
 submit.addEventListener('click', async (e) => {
+    submit.setAttribute("disabled", true);
     const loadOverlay = document.getElementById('loading-overlay')
     loadOverlay.classList.toggle('d-none')
 
