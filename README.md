@@ -58,7 +58,11 @@ docker cp dump.sql containerId:/
 Go into docker and use terminal and run cmd in export.sh / import.sh
 
 ## Run
-python3 pipeline.py
+
+# pipeline
+python3 src/pipeline_runner.py raw_data/product_data.csv
+
+# launch node server
 npm run local
 
 ### Issues
