@@ -38,15 +38,17 @@ submit.addEventListener('click', async (e) => {
             body: formData, // Send the form data containing the file
         })
 
-        if (!response.ok) {
-            alert(`Upload error: ${response.status}`)
-        }
         const result = await response.json()
-        alert('Data uploaded to database')
+        if (!response.ok) {
+            alert(`Upload error: Response Status ${response.status}, ${result.msg}`)
+        } else {
+            alert('Data uploaded to database')
+        }
     } catch (error) {
         alert('Failed to reach server: ' + error.message)
     }
     loadOverlay.classList.toggle('d-none')
+    window.location.reload()
 })
 
 function updatefileDropText() {
@@ -105,11 +107,11 @@ function toggleSubmit(bool) {
             const uploadTime = document.createElement('td')
             const hyperlink = document.createElement('a')
 
-            hyperlink.textContent = elem.filenameoriginal;
+            hyperlink.textContent = elem.filenameoriginal
             hyperlink.setAttribute('href', `download?filename=${elem.filename}&display=${elem.filenameoriginal}`)
 
             const date = new Date(elem.createdat)
-            uploadTime.textContent = date.toISOString().replace('T', ' ').split('.')[0];
+            uploadTime.textContent = date.toISOString().replace('T', ' ').split('.')[0]
 
             fileName.appendChild(hyperlink)
             historyEntry.append(fileName, uploadTime)
