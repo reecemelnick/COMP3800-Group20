@@ -25,7 +25,7 @@ At project root:
 At project root:
 >pip3 install -r requirements-dev.txt
 
-# To leave python environment
+## To leave python environment
 
 >deactivate
 
@@ -35,7 +35,7 @@ At project root:
 # Docker
 
 ## Install
-install docker desktop via package manager
+Install docker desktop via package manager
 
 ### Setup Database
 At project root:
@@ -52,18 +52,18 @@ To find container id:
 Through docker desktop, open the container and use terminal and run the commands written in: scripts/export.sh / scripts/import.sh
 
 # Install node
-install nvm or node 22 directly
+Install nvm or node 22 directly: https://nodejs.org/en/download
 
 # install npm packages
 At project root:
 >npm ci
 
 # create env.local in src folder
-cp env.example /src/.env.local
+>cp env.example /src/.env.local
 
 Roboflow API Key to be obtained through the Roboflow Platform through (Settings -> API Keys -> Private API Key)<br>
 
-If you want to change database credentials, you will also need to change the credentials in docker-compose.yml
+If you want to use different database credentials, you will also need to change the credentials in docker-compose.yml before setting up the container
 
 ## Run
 Activate pyenv:
