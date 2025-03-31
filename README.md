@@ -29,7 +29,7 @@ At project root:
 
 >deactivate
 
-# disable __pycache__
+# Disable __pycache__
 >export PYTHONDONTWRITEBYTECODE=1
 
 # Docker
