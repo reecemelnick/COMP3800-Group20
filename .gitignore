@@ -2,6 +2,5 @@ playground.js
 !jest.config.js
 *.d.ts
 node_modules
-package-lock.json
 venv
 .env*
