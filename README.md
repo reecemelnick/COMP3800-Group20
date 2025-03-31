@@ -63,4 +63,12 @@ cp env.example /src/.env.local
 fill in values
 
 ## Run
+
+# pipeline
+python3 src/pipeline_runner.py raw_data/product_data.csv
+
+# launch node server
 npm run local
+
+### Issues
+Tensorflow and nodemon cannot present at the same time. I have switch to use node runtime instead for npm run local.
