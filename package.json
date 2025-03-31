@@ -4,7 +4,7 @@
     "description": "placeholder",
     "main": "index.js",
     "scripts": {
-        "local": "NODE_ENV=local nodemon src/index.js",
+        "local": "NODE_ENV=local node src/index.js",
         "lint": "esw ./src --color --fix"
     },
     "repository": {

@@ -59,3 +59,7 @@ Go into docker and use terminal and run cmd in export.sh / import.sh
 
 ## Run
 python3 pipeline.py
+npm run local
+
+### Issues
+Tensorflow and nodemon cannot present at the same time. I have switch to use node runtime instead for npm run local.
