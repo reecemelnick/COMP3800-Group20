@@ -26,7 +26,7 @@ birthdate.addEventListener('change', (e) => {
         calculateBtn.disabled = true;
     } else {
         document.getElementById('birthdateSelected').removeAttribute('style');
-        document.getElementById('birthdateSelected').innerText = birthdateVal;
+        document.getElementById('birthdateSelected').innerText = "";
         calculateBtn.disabled = false;
     }
 
